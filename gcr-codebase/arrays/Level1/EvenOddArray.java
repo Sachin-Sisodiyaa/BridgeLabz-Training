@@ -1,0 +1,61 @@
+/*Create a program to save odd and even numbers into odd and even arrays between 1 to the number entered by the user. Finally, print the odd and even numbers array
+Hint => 
+Get an integer input from the user, assign it to a variable number, and check for Natural Number. If not a natural number then print an error and exit the program
+Create an integer array for even and odd numbers with size = number / 2 + 1
+Create index variables for odd and even numbers and initialize them to zero
+Using a for loop, iterate from 1 to the number, and in each iteration of the loop, save the odd or even number into the corresponding array
+Finally, print the odd and even numbers array using the odd and even index
+*/
+
+
+import java.util.Scanner;
+
+public class EvenOddArray
+{
+	public static void main(String[] args)
+	{
+		//Declaring variables and Taking inputs
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter a number : ");
+		int number = input.nextInt();
+   		int size = (number / 2) + 1;
+		int evenArray[]  = new int[size];
+		int oddArray[]  = new int[size];
+		int evenIndex = 0, oddIndex = 0;
+		
+		// Condition to check even  or odd number
+		if(number <= 0)
+		{
+			System.out.println("Error: Please enter a natural number");
+			return;
+		}
+
+		for (int i = 1; i <= number; i++) 
+		{
+            		if (i % 2 == 0) 
+			{
+                		evenArray[evenIndex] = i;
+                		evenIndex++;
+            		} 
+			else 
+			{
+                		oddArray[oddIndex] = i;
+                		oddIndex++;
+            		}
+        	}
+
+		//Printing even and odd arrays
+		for(int i=0; i<evenIndex; i++)
+		{
+			System.out.print(evenArray[i] + "  ");
+		}
+
+		System.out.println();
+			
+		for(int i=0; i<oddIndex; i++)
+		{
+			System.out.print(oddArray[i] + "  ");
+		}
+		input.close();
+	}
+}
