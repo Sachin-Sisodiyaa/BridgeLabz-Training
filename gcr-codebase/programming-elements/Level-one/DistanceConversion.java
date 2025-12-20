@@ -12,9 +12,11 @@ public class DistanceConversion
 	{
 		//Declare variable Distance
 		double distanceFeet, distanceMile, distanceYard;
+
+		//creating object of scanner class
+		Scanner input = new Scanner(System.in);
 		
 		//Getting an input distance
-		Scanner input = new Scanner(System.in);
 		System.out.println("Enter Distance in Feet");
 		distanceFeet = input.nextDouble();
 
@@ -25,5 +27,5 @@ public class DistanceConversion
 		//Display converted distance
 		System.out.println("The distance in yards is " + distanceYard + " and miles is " + distanceMile + " for the distance provided by user in feet " + distanceFeet);
 		input.close();
-		}
+	}
 }
