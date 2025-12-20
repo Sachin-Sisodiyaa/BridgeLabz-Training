@@ -8,6 +8,7 @@ Finally, print the odd and even numbers array using the odd and even index
 */
 
 
+import static java.lang.System.exit;
 import java.util.Scanner;
 
 public class EvenOddArray
@@ -26,8 +27,8 @@ public class EvenOddArray
 		// Condition to check even  or odd number
 		if(number <= 0)
 		{
-			System.out.println("Error: Please enter a natural number");
-			return;
+			System.err.println("Error: You enter negative number");
+			exit(-1);
 		}
 
 		for (int i = 1; i <= number; i++) 
