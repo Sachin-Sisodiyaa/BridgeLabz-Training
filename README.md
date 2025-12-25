@@ -18,8 +18,8 @@
 ---
 
 ### 📂 Repository Structure
-
-```BridgeLabz-Training/
+```
+BridgeLabz-Training/
 │
 ├── core-java-practice/
 │ │
@@ -35,4 +35,18 @@
 │ ├── leet-code-codebase/
 │ └── scenario-based/
 │
-└── README.md```
+└── README.md
+```
+---
+
+### 📅 Day 2 – Git Practice & Basic Java Programs  
+**Date:** 16-Dec-2025
+
+- Practiced Git workflow to understand version control and commits  
+- Solved basic Java programs to understand syntax and structure  
+- Added, committed, and pushed Java files to GitHub
+
+🔗 **Code Link:**  
+👉 [Basic Java Programs](core-java-practice/gcr-codebase/program-prerequistes)
+
+---
