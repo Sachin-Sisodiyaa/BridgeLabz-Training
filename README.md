@@ -1,4 +1,7 @@
 ## 🗓 Week 1: Git, GitHub & Java Programming Fundamentals  
+
+---
+
 ### 📅 Day 1 – Git & GitHub Initialization  
 
 **Date:** 15-Dec-2025  
@@ -81,7 +84,7 @@ BridgeLabz-Training/
   - Prime number check
 
 🔗 **Code Link:**  
-👉 [Programming Elements](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+👉 [Control Flow Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
 ---
 
@@ -98,3 +101,18 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**  
 👉 [Array Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
+---
+
+### 📅 Day 6 – Java Methods & Reusability  
+**Date:** 20-Dec-2025
+
+- Studied Java methods:
+  - Method declaration
+  - Method calling
+  - Parameter passing
+- Practiced writing reusable logic using methods  
+- Committed and pushed all solutions
+
+🔗 **Code Link:**  
+👉 [Method Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
