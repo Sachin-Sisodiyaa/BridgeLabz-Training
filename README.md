@@ -137,4 +137,20 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [String Problems](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
-    
+---
+
+### 📅 Day 2 – Extras & Built-in Functions  
+**Date:** 23-Dec-2025
+
+- Solved extra String problems:
+  - Frequency calculation
+  - Substring operations
+  - Anagram checks
+- Practiced Java built-in functions  
+- Worked with Java time APIs:
+  - `LocalDate.now()`
+  - `LocalTime.now()`    
+
+🔗 **Code Links:**  
+👉 [String Extras](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/String-Handling)  
+👉 [Built-in Functions](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/Built-In-Function)
