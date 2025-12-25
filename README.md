@@ -47,7 +47,7 @@ BridgeLabz-Training/
 - Added, committed, and pushed Java files to GitHub
 
 🔗 **Code Link:**  
-👉 [Basic Java Programs]((https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequistes))
+👉 [Basic Java Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequistes)
 
 ---
 
@@ -62,7 +62,7 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository
     
 🔗 **Code Link:**  
-👉 [Programming Elements]((https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements))
+👉 [Programming Elements](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
@@ -80,5 +80,21 @@ BridgeLabz-Training/
   - Factorial calculation
   - Prime number check
 
-  🔗 **Code Link:**  
-👉 [Programming Elements]((https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows))
+🔗 **Code Link:**  
+👉 [Programming Elements](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+
+---
+
+### 📅 Day 5 – Arrays & Basic Problem Solving  
+**Date:** 19-Dec-2025
+
+- Learned array concepts:
+  - Single-dimensional arrays
+  - Multi-dimensional arrays
+- Practiced array traversal and operations  
+- Solved problems related to:
+  - Finding missing elements
+  - Basic array-based logic  
+
+🔗 **Code Link:**  
+👉 [Array Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
