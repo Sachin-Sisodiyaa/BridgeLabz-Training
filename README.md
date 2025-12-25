@@ -47,6 +47,21 @@ BridgeLabz-Training/
 - Added, committed, and pushed Java files to GitHub
 
 🔗 **Code Link:**  
-👉 [Basic Java Programs](core-java-practice/gcr-codebase/program-prerequistes)
+👉 [Basic Java Programs]([core-java-practice/gcr-codebase/program-prerequistes](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequistes))
+
+---
+
+### 📅 Day 3 – Programming Elements in Java  
+**Date:** 17-Dec-2025
+
+- Studied Java programming elements:
+  - Variables and data types
+  - Operators
+  - User input and output
+- Solved practice problems based on programming elements  
+- Committed and pushed solutions to the repository
+    
+🔗 **Code Link:**  
+👉 [Programming Elements]([core-java-practice/gcr-codebase/programming-elements/](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements))
 
 ---
