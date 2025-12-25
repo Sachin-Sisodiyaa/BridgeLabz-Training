@@ -116,3 +116,25 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**  
 👉 [Method Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+
+---
+
+## 🗓 Week 2: Strings & Extras Problems
+
+---
+
+### 📅 Day 1 – String Concepts & Problems  
+**Date:** 22-Dec-2025
+
+- Learned String concepts and immutability  
+- Explored built-in String methods  
+- Introduction to exception handling  
+- Solved problems at multiple levels:
+  - **Level 1:** Custom methods similar to built-in methods  
+  - **Level 2:** Printing data in tabular format  
+  - **Level 3:** Problems using randomly generated values
+
+🔗 **Code Link:**  
+👉 [String Problems](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+
+    
