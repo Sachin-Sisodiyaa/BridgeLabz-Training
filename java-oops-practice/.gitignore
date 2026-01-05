@@ -8,11 +8,11 @@
 /gcr-codebase/javaOopsConcepts/.project
 target/
 
-/scenario-based/scenarioBased/.classpath
-/scenario-based/scenarioBased/.gitignore
-/scenario-based/scenarioBased/.project
-/scenario-based/scenarioBased/.settings/
-/scenario-based/scenarioBased/src/module-info.java
+# Nested Eclipse files
+**/.project
+**/.classpath
+**/.settings/
+**/.gitignore
 
 # Logs
 .Log
