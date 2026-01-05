@@ -8,9 +8,21 @@
 /gcr-codebase/javaOopsConcepts/.project
 target/
 
+**/module-info.java
+
+**/.metadata/
+
+# Nested Eclipse files
+**/.project
+**/.classpath
+**/.settings/
+**/bin
+
+
 # Logs
 .Log
 
 # OS generated files
 .DS_Store
 Thumbs.db
+/.metadata/
