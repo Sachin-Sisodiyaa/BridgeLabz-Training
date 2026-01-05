@@ -1,28 +1,16 @@
-/gcr-codebase/.metadata
+# ========================
+# Java / Eclipse
+# ========================
+.project
+.classpath
+.settings/
+bin/
+/.metadata/
 
-
-
-/gcr-codebase/javaOopsConcepts/bin
-/gcr-codebase/javaOopsConcepts/.settings
-/gcr-codebase/javaOopsConcepts/.classpath
-/gcr-codebase/javaOopsConcepts/.project
-target/
-
-**/module-info.java
-
-**/.metadata/
-
-# Nested Eclipse files
+# Ignore everywhere
 **/.project
 **/.classpath
 **/.settings/
-**/bin
-
-
-# Logs
-.Log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-/.metadata/
+**/bin/
+**/module-info.java
+**/.metadata/
