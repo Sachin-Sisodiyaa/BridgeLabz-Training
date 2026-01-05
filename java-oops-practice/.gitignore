@@ -8,13 +8,11 @@
 /gcr-codebase/javaOopsConcepts/.project
 target/
 
-java-oops-practice/.project
-java-oops-practice/scenario-based/.gitignore
-java-oops-practice/scenario-based/scenarioBased/.classpath
-java-oops-practice/scenario-based/scenarioBased/.gitignore
-java-oops-practice/scenario-based/scenarioBased/.project
-java-oops-practice/scenario-based/scenarioBased/.settings/
-java-oops-practice/scenario-based/scenarioBased/src/module-info.java
+/scenario-based/scenarioBased/.classpath
+/scenario-based/scenarioBased/.gitignore
+/scenario-based/scenarioBased/.project
+/scenario-based/scenarioBased/.settings/
+/scenario-based/scenarioBased/src/module-info.java
 
 # Logs
 .Log
