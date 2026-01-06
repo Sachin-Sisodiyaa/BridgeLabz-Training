@@ -185,3 +185,36 @@ BridgeLabz-Training/
 - Clean code practices
 
 ---  
+
+### 📅 Day 4 – Scenario-Based Questions  
+**Date:** 26-Dec-2025 
+
+### 3. Election Booth Manager 🗳️
+- Check voter eligibility using age (`if`)
+- Record vote for candidates (1, 2, 3)
+- Loop for multiple voters, exit on special code
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/ElectionBoothManager.java)
+
+---
+
+### 4. Metro Smart Card Fare Deduction 🚇
+- Take travel distance as input
+- Calculate fare using ternary operator
+- Deduct balance and loop until exit or balance ends
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/MetroSmartCard.java)
+
+---
+
+### 5. Raj’s Result Generator 📊
+- Input marks for 5 subjects
+- Calculate average using `for` loop
+- Assign grades using `switch-case`
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/ResultGenerator.java)
+
+---
