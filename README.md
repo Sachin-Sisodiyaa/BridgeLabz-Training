@@ -341,4 +341,50 @@ BridgeLabz-Training/
 ## Day 3 - Scenario Based Questions
 **Date:** 31-Dec-2025
 
-  
+### 1. Digital Watch Simulation ⏱️
+- Print hours and minutes using nested `for` loops
+- Simulate 24-hour format
+- Stop execution at 13:00 using `break`
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/DigitalWatchSimulation.java)
+
+---
+
+### 2. Online Quiz Application 🧠
+- Ask 5 MCQ questions using arrays
+- Calculate score using `for` loop
+- Check answers using `switch-case`
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/OnlineQuizApplication.java)
+
+---
+
+### 3. Currency Exchange Kiosk 💱
+- Take INR amount and target currency
+- Apply conversion rate using `switch-case`
+- Repeat conversion using `do-while` loop
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/CurrencyExchangeKiosk.java)
+
+---
+
+### 4. Bus Route Distance Tracker 🚌
+- Add distance at each stop
+- Use `while` loop to track total distance
+- Exit on passenger confirmation
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/BusRouteDistance.java)
+
+---
+
+### 5. Festival Lucky Draw 🎉
+- Check if number divisible by 3 and 5
+- Use `if` and modulus operator
+- Skip invalid input using `continue`
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/FestivalLuckyDraw.java)
