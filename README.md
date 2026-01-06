@@ -131,3 +131,23 @@ manage customer accounts, deposits, and interest calculations.
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daytwo)
 
 ---
+
+# Week 3: More scenario-based questions
+---
+## Day 1 - Solved scenario based problems
+**Date**: 05-Jan-2026
+
+### Questions:
+
+- "CampusConnect – College Information System"
+Story: Your university launches CampusConnect, a portal to manage students, teachers, and
+courses. You're developing the academic module.
+
+- "SwiftCart – The Grocery Shopping App"
+Story: You're building SwiftCart, an online grocery platform where users add items to cart and
+check out. The backend logic for cart management is your task.
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daythree)
+
+---
