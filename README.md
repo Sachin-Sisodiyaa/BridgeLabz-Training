@@ -154,3 +154,34 @@ BridgeLabz-Training/
 🔗 **Code Links:**  
 👉 [String Extras](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/String-Handling)  
 👉 [Built-in Functions](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/Built-In-Function)
+
+---
+
+### 📅 Day 3 – Scenario-Based Questions  
+**Date:** 24-Dec-2025 
+
+## Problem 1: The Coffee Counter Chronicles
+- Select coffee type using `switch-case`
+- Calculate bill using quantity and GST
+- Serve multiple customers using `while` loop until user exits
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/CoffeeCounter.java)
+
+---
+
+## Problem 2: Maya’s BMI Fitness Tracker
+- Take height and weight as input
+- Calculate BMI using formula
+- Display BMI category using `if-else`
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/FitnessTracker.java)
+
+### 💡 Concepts Used
+- Variables and primitive data types
+- Arithmetic operators
+- `if-else` conditional logic
+- Clean code practices
+
+---  
