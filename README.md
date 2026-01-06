@@ -56,3 +56,19 @@
 👉 [Object Modelling](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/objectmodeling)
 
 ---
+## Day 3 - Inheritance
+**Date**: 31-Dec-2025
+
+### Topic Covered:
+- Inheritance
+- Single Level Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Key Features of Inheritance
+- Method Overriding
+- Constructor Inheritance in Java
+- Polymorphism and Inheritance
+- Access Modifiers and Inheritance
+
+🔗 **Code Link:**
+👉 [Inheritance](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/inheritance)
