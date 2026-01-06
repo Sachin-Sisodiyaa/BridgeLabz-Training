@@ -292,7 +292,7 @@ BridgeLabz-Training/
   - Maintained readable variable names and modular logic.
 
 🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/ParkingLotGateSystem.java)
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/TemperatureLogger.java)
 
 
 2. *Train Reservation Queue*
@@ -303,7 +303,7 @@ BridgeLabz-Training/
   - Stopped booking once seats reached zero using break.
 
 🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/ParkingLotGateSystem.java)
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/TrainReservationQueue.java)
 
 
 3.  *Sandeep’s Fitness Challenge Tracker*
@@ -315,7 +315,7 @@ BridgeLabz-Training/
   - Used continue to skip rest days.
 
 🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/ParkingLotGateSystem.java)
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/SandeepsFitnessChallenge.java)
 
 
 4. *Movie Ticket Booking App*
@@ -325,7 +325,7 @@ BridgeLabz-Training/
   - Looped through multiple customers.
 
 🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/ParkingLotGateSystem.java)
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/MovieTicketBooking.java)
 
 
 5. *Rohan’s Library Reminder App*
@@ -334,7 +334,7 @@ BridgeLabz-Training/
   - Repeated fine calculation for 5 books using for-loop.
 
 🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/ParkingLotGateSystem.java)
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/scenario-based-codebase/RohansLibraryReminder.java)
 
 ---
 
