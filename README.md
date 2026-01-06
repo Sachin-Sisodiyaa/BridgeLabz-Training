@@ -113,3 +113,21 @@ Scenario: Users can control appliances like lights, fans, ACs via a smart interf
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayone)
 
 ---
+
+## Day 6 - Solved scenario based problems
+**Date**: 03-Jan-2026
+
+### Questions:
+
+- "CabbyGo – A Ride-Hailing App in the Making"
+Story: You’ve joined a startup building CabbyGo, a ride-hailing app. You're tasked with building
+the backend logic for managing vehicles, drivers, and ride booking.
+
+- "MyBank – Managing Customer Accounts"
+Story: You're building the core banking module for MyBank, a digital-first bank. Your job is to
+manage customer accounts, deposits, and interest calculations.
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daytwo)
+
+---
