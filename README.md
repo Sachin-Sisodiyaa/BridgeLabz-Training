@@ -14,7 +14,7 @@
 ---
 
 ## Day 2 – Constructors & Variables
-**date**: 27-Dec-2025
+**Date**: 27-Dec-2025
 
 ### Topics Covered:
 - Java Constructors
@@ -25,4 +25,19 @@
 
 🔗 **Code Link:**
 👉 [constructors](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/constructors/levelone)
+
+---
+
+# Week 2: Moving further in oops concepts
+---
+## Day 1 - This, Static, Final Keywords and Instance
+**Date**: 29-Dec-2025
+
+### Topics Covered:
+- this- static 
+- final 
+- instance of operator
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/inbuiltfunction)
 
