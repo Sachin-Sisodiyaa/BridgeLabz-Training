@@ -41,3 +41,18 @@
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/inbuiltfunction)
 
+---
+
+## Day 2 - Object modelling and Class Diagram
+**Date**: 30-Dec-2025
+
+### Topic Covered:
+- Classes vs. Objects in Java
+- Class Diagram
+- Object Diagrams
+- Sequence Diagrams
+
+🔗 **Code Link:**
+👉 [Object Modelling](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/objectmodeling)
+
+---
