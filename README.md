@@ -72,3 +72,18 @@
 
 🔗 **Code Link:**
 👉 [Inheritance](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/inheritance)
+
+---
+## Day 4 - Oops Pillars
+**Date**: 01-Jan-2026
+
+### Topic Covered:
+- Encapsulation
+- Polymorphism 
+- Interface
+- Abstract Classes
+
+🔗 **Code Link:**
+👉 [oops pillars](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/encapsulation)
+
+---
