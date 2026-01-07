@@ -94,8 +94,7 @@
 ### Questions:
 
 - Hospital Patient Management System
-Scenario: A hospital wants a software module to register patients, assign doctors, and maintain
-billing.
+Scenario: A hospital wants a software module to register patients, assign doctors, and maintain billing.
 
 - Vehicle Rental Application
 Scenario: Build a system for renting bikes, cars, and trucks to customers.
@@ -120,12 +119,10 @@ Scenario: Users can control appliances like lights, fans, ACs via a smart interf
 ### Questions:
 
 - "CabbyGo – A Ride-Hailing App in the Making"
-Story: You’ve joined a startup building CabbyGo, a ride-hailing app. You're tasked with building
-the backend logic for managing vehicles, drivers, and ride booking.
+Story: You’ve joined a startup building CabbyGo, a ride-hailing app. You're tasked with building the backend logic for managing vehicles, drivers, and ride booking.
 
 - "MyBank – Managing Customer Accounts"
-Story: You're building the core banking module for MyBank, a digital-first bank. Your job is to
-manage customer accounts, deposits, and interest calculations.
+Story: You're building the core banking module for MyBank, a digital-first bank. Your job is to manage customer accounts, deposits, and interest calculations.
 
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daytwo)
@@ -140,14 +137,33 @@ manage customer accounts, deposits, and interest calculations.
 ### Questions:
 
 - "CampusConnect – College Information System"
-Story: Your university launches CampusConnect, a portal to manage students, teachers, and
-courses. You're developing the academic module.
+Story: Your university launches CampusConnect, a portal to manage students, teachers, and courses. You're developing the academic module.
 
 - "SwiftCart – The Grocery Shopping App"
-Story: You're building SwiftCart, an online grocery platform where users add items to cart and
-check out. The backend logic for cart management is your task.
+Story: You're building SwiftCart, an online grocery platform where users add items to cart and check out. The backend logic for cart management is your task.
 
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daythree)
+
+---
+## Day 2 - Solved scenario based problems
+**Date**: 06-Jan-2026
+
+### Questions:
+
+- "EduMentor – Personalized Learning Platform"
+Story: EduMentor is an AI-based learning platform. You're tasked with implementing the moduleto manage courses, quizzes, and learner progress.
+
+-  "FitTrack – Your Personal Fitness Tracker"
+Story: You’ve been hired to develop FitTrack, a fitness tracking app that monitors users workouts, calories, and daily progress.
+
+-  "PetPal – Virtual Pet Care App"
+Story: You’re creating PetPal, an app that allows users to adopt and care for virtual pets like dogs, cats, and birds.
+
+- "EventEase – Event Management Platform"
+Story: EventEase helps users organize events like birthdays, weddings, and conferences.
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayfour)
 
 ---
