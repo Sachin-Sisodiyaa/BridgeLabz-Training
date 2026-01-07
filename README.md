@@ -154,3 +154,151 @@ BridgeLabz-Training/
 🔗 **Code Links:**  
 👉 [String Extras](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/String-Handling)  
 👉 [Built-in Functions](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/Built-In-Function)
+
+---
+
+### 📅 Day 3 – Scenario-Based Questions  
+**Date:** 24-Dec-2025
+
+- Coffee Counter Chronicles
+- BMI Fitness Tracker
+
+🔗 Code: Scenario-Based Programs
+
+---
+
+### 📅 Day 4 – Scenario-Based Questions  
+**Date:** 26-Dec-2025
+
+- Election Booth Manager
+- Metro Smart Card Fare Deduction
+- Raj’s Result Generator
+
+🔗 Code: Scenario-Based Programs
+
+---
+
+## 🗓 Week 3: Advanced Scenario-Based Problems (Core Java)
+
+---
+
+### 📅 Day 1 – Scenario-Based Problems  
+**Date:** 29-Dec-2025
+
+- Parking Lot Gate System
+- Number Guessing Game
+- Shopkeeper’s Discount Dashboard
+- School Bus Attendance System
+- Phone Recharge Simulator
+
+---
+
+### 📅 Day 2 – Scenario-Based Problems  
+**Date:** 30-Dec-2025
+
+- Temperature Logger
+- Train Reservation Queue
+- Fitness Challenge Tracker
+- Movie Ticket Booking App
+- Library Reminder App
+
+---
+
+### 📅 Day 3 – Scenario-Based Problems  
+**Date:** 31-Dec-2025
+
+- Digital Watch Simulation
+- Online Quiz Application
+- Currency Exchange Kiosk
+- Bus Route Distance Tracker
+- Festival Lucky Draw
+
+---
+
+## 🗓 Week 4: Object-Oriented Programming (Java OOP)
+
+---
+
+### 📅 Day 1 – OOP Fundamentals  
+**Date:** 26-Dec-2025
+
+- Class & Object
+- Real-world modeling
+
+---
+
+### 📅 Day 2 – Constructors & Variables  
+**Date:** 27-Dec-2025
+
+- Default & parameterized constructors
+- Instance vs static variables
+- this keyword
+
+---
+
+### 📅 Day 3 – Keywords & Instance  
+**Date:** 29-Dec-2025
+
+- this, static, final
+- instanceof operator
+
+---
+
+### 📅 Day 4 – Object Modelling  
+**Date:** 30-Dec-2025
+
+- Class diagrams
+- Object diagrams
+- Sequence diagrams
+
+---
+
+### 📅 Day 5 – Inheritance  
+**Date:** 31-Dec-2025
+
+- Single, multilevel, hierarchical inheritance
+- Method overriding
+- Polymorphism basics
+
+---
+
+### 📅 Day 6 – OOP Pillars  
+**Date:** 01-Jan-2026
+
+- Encapsulation
+- Polymorphism
+- Interfaces
+- Abstract classes
+
+---
+
+## 🗓 Week 5: OOP Scenario-Based Applications
+
+---
+
+### 📅 Day 1 – Scenario-Based OOP  
+**Date:** 02-Jan-2026
+
+- Hospital Management System
+- Vehicle Rental Application
+- University Enrollment System
+- E-Wallet Application
+- Smart Home Automation
+
+---
+
+### 📅 Day 2 – Scenario-Based OOP  
+**Date:** 03-Jan-2026
+
+- CabbyGo – Ride Hailing App
+- MyBank – Banking System
+
+---
+
+### 📅 Day 3 – Advanced Scenarios  
+**Date:** 05-Jan-2026
+
+- CampusConnect – College Portal
+- SwiftCart – Grocery Shopping App
+
+---
