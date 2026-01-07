@@ -1,3 +1,37 @@
+# Object Oriented Programming 
+
+> This branch is a based on my learning of concepts called Object Oriented Programming in Java
+
+## Project Structure
+
+```
+
+BridgeLabz-Training
+└───java-oops-practice
+    ├───bin
+    ├───gcr-codebase
+    │   └───JavaOopsConcepts
+    │       └───src
+    │           └───com
+    │               ├───classandobject
+    │               ├───constructor
+    │               ├───encapsulation
+    │               ├───inbuiltfunction
+    │               ├───inheritance
+    │               └───objectmodeling
+    ├───leetcode-codebase
+    └───scenario-base
+        └───src
+            └───com
+                ├───dayfive
+                ├───dayfour
+                ├───dayone
+                ├───daythree
+                └───daytwo
+
+```
+---
+
 # Week 1: Starting with oops conpects
 ---
 ## Day 1 – OOP Fundamentals & Class/Object
