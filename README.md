@@ -201,3 +201,16 @@ Story: EventEase helps users organize events like birthdays, weddings, and confe
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayfour)
 
 ---
+## Day 3 - Solved scenario based problems
+**Date**: 07-Jan-2026
+
+### Questions:
+
+- "LoanBuddy – Loan Approval Automation" 
+Story: A fintech startup named FinlyTech is launching a product called LoanBuddy, a web and mobile app that automates personal loan approvals for salaried and self-employed applicants.
+
+- "BookBazaar – Digital Bookstore System" 
+Story: You’re building the backend for BookBazaar, an online bookstore. It must handle book inventory, orders, and discounts.
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayfive)
