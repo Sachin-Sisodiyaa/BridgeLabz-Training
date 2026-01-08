@@ -1,4 +1,4 @@
-## 🗓 Week 1: Git, GitHub & Java Programming Fundamentals  
+## 🗓 Week 1: Java Programming Fundamentals  
 
 ---
 
@@ -119,7 +119,7 @@ BridgeLabz-Training/
 
 ---
 
-## 🗓 Week 2: Strings & Extras Problems
+## 🗓 Week 2: Strings & Extras Problems And Started OOPS
 
 ---
 
@@ -157,7 +157,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 3 – Scenario-Based Questions  
+### 📅 Day 2 – Scenario-Based Questions(core-java-practice)  
 **Date:** 24-Dec-2025
 
 - Coffee Counter Chronicles
@@ -167,7 +167,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 4 – Scenario-Based Questions  
+### 📅 Day 3 – Scenario-Based Questions  
 **Date:** 26-Dec-2025
 
 - Election Booth Manager
@@ -178,11 +178,11 @@ BridgeLabz-Training/
 
 ---
 
-## 🗓 Week 3: Advanced Scenario-Based Problems (Core Java)
+## 🗓 Week 2: Advanced Scenario-Based Problems (Core Java)
 
 ---
 
-### 📅 Day 1 – Scenario-Based Problems  
+### 📅 Day 4 – Scenario-Based Problems  
 **Date:** 29-Dec-2025
 
 - Parking Lot Gate System
@@ -193,7 +193,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 2 – Scenario-Based Problems  
+### 📅 Day 5 – Scenario-Based Problems  
 **Date:** 30-Dec-2025
 
 - Temperature Logger
@@ -204,7 +204,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 3 – Scenario-Based Problems  
+### 📅 Day 6 – Scenario-Based Problems  
 **Date:** 31-Dec-2025
 
 - Digital Watch Simulation
@@ -215,7 +215,7 @@ BridgeLabz-Training/
 
 ---
 
-## 🗓 Week 4: Object-Oriented Programming (Java OOP)
+## 🗓 Week 2: Object-Oriented Programming (Java OOP)
 
 ---
 
@@ -272,11 +272,11 @@ BridgeLabz-Training/
 
 ---
 
-## 🗓 Week 5: OOP Scenario-Based Applications
+## 🗓 Week 3: OOP Scenario-Based Questions
 
 ---
 
-### 📅 Day 1 – Scenario-Based OOP  
+### 📅 Day 1 – Scenario-Based OOPS  
 **Date:** 02-Jan-2026
 
 - Hospital Management System
@@ -287,7 +287,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 2 – Scenario-Based OOP  
+### 📅 Day 2 – Scenario-Based OOPS 
 **Date:** 03-Jan-2026
 
 - CabbyGo – Ride Hailing App
@@ -295,7 +295,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 3 – Advanced Scenarios  
+### 📅 Day 3 – Advanced Scenarios  OOPS
 **Date:** 05-Jan-2026
 
 - CampusConnect – College Portal
