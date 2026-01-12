@@ -131,10 +131,10 @@ BridgeLabz-Training
 ### 📅 Day 6 - Solved Scneario bases Questions 1
 **Date:** 10-Jan-2026
 
-  - Solve Following DSA SBQ's
-        - BookShelf – Library Organizer (HashMap + Linked List)
-        - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
-        - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+- Solve Following DSA SBQ's
+    - BookShelf – Library Organizer (HashMap + Linked List)
+    - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+    - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
 
 🔗 **Code Link:**
 👉 [Link]()
