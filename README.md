@@ -32,9 +32,9 @@ BridgeLabz-Training
 ```
 ---
 
-# Week 1: Starting with oops conpects
+## Week 2 - Working on pillars of Object oriented programming
 ---
-## Day 1 – OOP Fundamentals & Class/Object
+## Day 5 – OOP Fundamentals & Class/Object
 **Date**: 26-Dec-2025
 
 ### Topics Covered:
@@ -47,7 +47,7 @@ BridgeLabz-Training
 
 ---
 
-## Day 2 – Constructors & Variables
+## Day 6 – Constructors & Variables
 **Date**: 27-Dec-2025
 
 ### Topics Covered:
@@ -108,7 +108,7 @@ BridgeLabz-Training
 👉 [Inheritance](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/javaOopsConcepts/src/com/inheritance)
 
 ---
-## Day 4 - Oops Pillars
+## Day 4 - Encapsulation, Polymorphism, Interface and Abstract Class
 **Date**: 01-Jan-2026
 
 ### Topic Covered:
@@ -122,41 +122,29 @@ BridgeLabz-Training
 
 ---
 
-## Day 5 - Solved scenario based problems
+## Day 5 - Solved scenario based problems on oops
 **Date**: 02-Jan-2026
 
 ### Questions:
 
 - Hospital Patient Management System
-Scenario: A hospital wants a software module to register patients, assign doctors, and maintain billing.
-
 - Vehicle Rental Application
-Scenario: Build a system for renting bikes, cars, and trucks to customers.
-
 - University Course Enrollment System
-Scenario: Students should be able to enroll in courses, and faculty can assign grades.
-
 - E-Wallet Application
-Scenario: Users can register, load money, transfer funds, and view transaction history.
-
 - Smart Home Automation System
-Scenario: Users can control appliances like lights, fans, ACs via a smart interface.
 
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayone)
 
 ---
 
-## Day 6 - Solved scenario based problems
+## Day 6 - Solved scenario based problems on oops
 **Date**: 03-Jan-2026
 
 ### Questions:
 
 - "CabbyGo – A Ride-Hailing App in the Making"
-Story: You’ve joined a startup building CabbyGo, a ride-hailing app. You're tasked with building the backend logic for managing vehicles, drivers, and ride booking.
-
 - "MyBank – Managing Customer Accounts"
-Story: You're building the core banking module for MyBank, a digital-first bank. Your job is to manage customer accounts, deposits, and interest calculations.
 
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daytwo)
@@ -165,52 +153,67 @@ Story: You're building the core banking module for MyBank, a digital-first bank.
 
 # Week 3: More scenario-based questions
 ---
-## Day 1 - Solved scenario based problems
+## Day 1 - Solved scenario based problems on oops
 **Date**: 05-Jan-2026
 
 ### Questions:
 
 - "CampusConnect – College Information System"
-Story: Your university launches CampusConnect, a portal to manage students, teachers, and courses. You're developing the academic module.
-
 - "SwiftCart – The Grocery Shopping App"
-Story: You're building SwiftCart, an online grocery platform where users add items to cart and check out. The backend logic for cart management is your task.
-
+  
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daythree)
 
 ---
-## Day 2 - Solved scenario based problems
+## Day 2 - Solved scenario based problems on oops
 **Date**: 06-Jan-2026
 
 ### Questions:
 
 - "EduMentor – Personalized Learning Platform"
-Story: EduMentor is an AI-based learning platform. You're tasked with implementing the moduleto manage courses, quizzes, and learner progress.
-
 -  "FitTrack – Your Personal Fitness Tracker"
-Story: You’ve been hired to develop FitTrack, a fitness tracking app that monitors users workouts, calories, and daily progress.
-
 -  "PetPal – Virtual Pet Care App"
-Story: You’re creating PetPal, an app that allows users to adopt and care for virtual pets like dogs, cats, and birds.
-
 - "EventEase – Event Management Platform"
-Story: EventEase helps users organize events like birthdays, weddings, and conferences.
 
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayfour)
 
 ---
-## Day 3 - Solved scenario based problems
+## Day 3 - Solved scenario based problems on oops
 **Date**: 07-Jan-2026
 
 ### Questions:
 
 - "LoanBuddy – Loan Approval Automation" 
-Story: A fintech startup named FinlyTech is launching a product called LoanBuddy, a web and mobile app that automates personal loan approvals for salaried and self-employed applicants.
+- "BookBazaar – Digital Bookstore System"
+- "ParkEase – Smart Parking Management System"
 
-- "BookBazaar – Digital Bookstore System" 
-Story: You’re building the backend for BookBazaar, an online bookstore. It must handle book inventory, orders, and discounts.
 
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayfive)
+
+---
+
+### 📅 Day 4 - Solve SBQ's on OOP's
+**Date:** 08-Jan-2026
+
+  - Solve following SBQ's
+      - "MediStore – Pharmacy Inventory & Sales System"
+      - "TourMate – Travel Itinerary Planner"
+        
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/daysix)
+
+---
+
+### 📅 Day 5 - Solve SBQ's on OOP's
+**Date:** 09-Jan-2026
+
+  - Solve Following SBQ's
+    - "Artify – Digital Art Marketplace"
+    - "FoodLoop – Restaurant Ordering System"
+    - "SkillForge – Online Learning Portal"
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayseven)
+
