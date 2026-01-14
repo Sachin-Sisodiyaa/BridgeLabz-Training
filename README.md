@@ -62,7 +62,7 @@ BridgeLabz-Training
 
 ---
 
-# Week 2: Moving further in oops concepts
+# Week 3: Moving further in oops concepts
 ---
 ## Day 1 - This, Static, Final Keywords and Instance
 **Date**: 29-Dec-2025
@@ -151,7 +151,7 @@ BridgeLabz-Training
 
 ---
 
-# Week 3: More scenario-based questions
+# Week 4: More scenario-based questions
 ---
 ## Day 1 - Solved scenario based problems on oops
 **Date**: 05-Jan-2026
@@ -179,6 +179,7 @@ BridgeLabz-Training
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayfour)
 
 ---
+
 ## Day 3 - Solved scenario based problems on oops
 **Date**: 07-Jan-2026
 
@@ -217,3 +218,34 @@ BridgeLabz-Training
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayseven)
 
+Day 6 (10-Jan-2026), No work on JAVA-OOPS-PRACTICE branch.
+
+---
+
+# Week 5: Solved scenario-based questions
+---
+## Day 1 - Solved scenario based problems on oops
+**Date**: 12-Jan-2026
+
+### Questions:
+
+- HomeNest – Smart Home Device Manage
+- BudgetWise – Personal Finance Tracker
+- GameBox – Mobile Game Distribution Platform
+  
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayeight)
+
+---
+## Day 2 - Solved scenario based problems on oops
+**Date**: 13-Jan-2026
+
+### Questions:
+
+- PayXpress – Utility Bill Payment System
+- Bird Sanctuary
+
+🔗 **Code Link:**
+👉 [Link]()
+
+---
