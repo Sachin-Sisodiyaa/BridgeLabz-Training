@@ -567,4 +567,55 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
         - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
 
 🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayone)
+
+---
+
+# Week 5: Started Advanced DSA and Solved Scenario Based Questions on OOPS & DSA
+
+--- 
+### 📅 Day 1 – Scenario based questions of DSA 
+**Date:** 12-Dec-2025  
+
+### Questions (OOPS):
+
+- HomeNest – Smart Home Device Manage
+- BudgetWise – Personal Finance Tracker
+- GameBox – Mobile Game Distribution Platform
+  
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayeight)
+
+### Questions (DSA):
+
+- CallCenter – Customer Queue Manager (Queue + HashMap)
+- TrainCompanion – Compartment Navigation System (Doubly LinkedList)
+- TextEditor – Undo/Redo Functionality (Stack)
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daytwo)
+
+---
+
+### 🗓 Day 2 – Scenario based questions of OOPS & DSA
+**Date:** 13-Dec-2025
+
+### Questions (OOPS):
+
+- PayXpress – Utility Bill Payment System
+- Bird Sanctuary
+
+🔗 **Code Link:**
 👉 [Link]()
+
+### Questions (DSA):
+
+- TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+- ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+- ParcelTracker – Delivery Chain Management (Singly Linked List)
+- SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree)
+
+---
