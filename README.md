@@ -137,7 +137,38 @@ BridgeLabz-Training
     - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
 
 🔗 **Code Link:**
-👉 [Link]()
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayone)
 
 ---    
   
+# Week 5 : DSA - Scenario-Based Questions
+
+--- 
+
+### 📅 Day 1 - Scenario-Based Questions 
+**Date:** 12-Jan-2026
+
+- Solve Following DSA SBQ's
+     - CallCenter – Customer Queue Manager (Queue + HashMap)
+     - TrainCompanion – Compartment Navigation System (Doubly LinkedList)
+     - TextEditor – Undo/Redo Functionality (Stack)
+Queue)
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daytwo)
+
+---
+
+### 📅 Day 2 - Scenario-Based Questions 
+**Date:** 13-Jan-2026
+
+- Solve Following DSA SBQ's
+     - TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+     - ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+     - ParcelTracker – Delivery Chain Management (Singly Linked List)
+     - SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree)
+
+---
