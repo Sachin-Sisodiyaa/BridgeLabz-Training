@@ -2,7 +2,7 @@ package javaDSAPractice.com.analysis.sorting;
 
 public class BubbleSort {
 
-    public void sort(int[] arr) {
+    public int sort(int[] arr) {
         int n = arr.length;
 
         for (int i = 0; i < n - 1; i++) {
@@ -19,5 +19,6 @@ public class BubbleSort {
 
             if (!swapped) break; // optimization
         }
+		return n;
     }
 }
