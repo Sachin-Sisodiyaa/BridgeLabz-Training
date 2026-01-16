@@ -575,7 +575,7 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 
 --- 
 ### 📅 Day 1 – Scenario based questions of DSA 
-**Date:** 12-Dec-2025  
+**Date:** 12-Jan-2025  
 
 ### Questions (OOPS):
 
@@ -598,7 +598,7 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 ---
 
 ### 🗓 Day 2 – Scenario based questions of OOPS & DSA
-**Date:** 13-Dec-2025
+**Date:** 13-Jan-2025
 
 ### Questions (OOPS):
 
@@ -617,5 +617,25 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 
 🔗 **Code Link:**
 👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree)
+
+---
+
+### 🗓 Day 3 – Makar Sakranti Holiday
+**Date:** 14-Jan-2025
+---
+
+### 🗓 Day 4 – Scenario based questions of DSA(Sorting)
+**Date:** 15-Jan-2025
+
+### Questions:
+
+- HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+- SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+- ZipZipMart – Daily Sales Summary Report (Merge Sort)
+- EventManager – Ticket Price Optimizer (Quick Sort)
+- ExamCell – Student Rank Generator (Merge Sort)
+
+🔗 **Code Link:**
+👉 [Link]()
 
 ---
