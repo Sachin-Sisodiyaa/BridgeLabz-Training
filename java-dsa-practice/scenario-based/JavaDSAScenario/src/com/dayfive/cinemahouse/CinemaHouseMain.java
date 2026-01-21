@@ -1,3 +1,15 @@
+/*7. CinemaHouse – Movie Time Sorting (Bubble Sort)
+Story: A small local cinema lists daily movie shows. The screen manager updates showtimes
+manually and prefers a simple sorting logic. Since the number of shows is small (~10), Bubble
+Sort is used.
+Key Concepts:
+● Manual data entry, simple logic
+● Small dataset
+● Minimal code complexity*/
+
+
+
+
 package com.dayfive.cinemahouse;
 
 import java.time.LocalTime;
@@ -15,6 +27,11 @@ public class CinemaHouseMain {
 
         System.out.print("Enter number of shows: ");
         int n = sc.nextInt();
+
+
+
+
+
         sc.nextLine();
 
         MovieTime[] movieTime = new MovieTime[n];
