@@ -636,7 +636,7 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 - ExamCell – Student Rank Generator (Merge Sort)
 
 🔗 **Code Link:**
-👉 [Link]()
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfour)
 
 ---
 ### 🗓 Day 5 – Scenario based questions of DSA(Sorting)
@@ -649,7 +649,7 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 - CropMonitor – Sensor Data Ordering (Quick Sort)
 
 🔗 **Code Link:**
-👉 [Link]()
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfive)
 
 ---
 ### 🗓 Day 6 – Scenario based questions of DSA(Sorting) & OOPs
@@ -659,11 +659,11 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 
 - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
 - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
--  IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
--  SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+- IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+- SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
 
 🔗 **Code Link:**
-👉 [Link]()
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daysix)
 
 ### Questions(OOPs):
 
@@ -671,7 +671,7 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 - Bag-n-Ball Organizer
 
 🔗 **Code Link:**
-👉 [Link]()
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/scenarioBased/src/com/dayten)
 
 ---
 # Week 6: Solved Scenario Based Questions on DSA(Sorting)
@@ -686,6 +686,9 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 - FlashDealz – Product Sorting by Discount (Quick Sort)
 - FitnessTracker – Daily Step Count Ranking (Bubble Sort)
 
+🔗 **Code Link:**
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayseven)
+
 ### Questions(OOPs):
 
 - DigiContact
@@ -694,6 +697,7 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 👉 [Link]()
 
 --- 
+
 ### 📅 Day 2 – Scenario based questions of DSA(Sorting)
 **Date:** 20-Jan-2025  
 
@@ -704,8 +708,10 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 - GamerZone – High Score Ranking System (Quick Sort)
 
 🔗 **Code Link:**
-👉 [Link]()
+👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayeight)
+
 --- 
+
 ### 📅 Day 3 – Scenario based questions of DSA(Sorting)
 **Date:** 21-Jan-2025  
 
@@ -716,3 +722,5 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 
 🔗 **Code Link:**
 👉 [Link]()
+
+---
