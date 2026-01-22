@@ -639,3 +639,80 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 👉 [Link]()
 
 ---
+### 🗓 Day 5 – Scenario based questions of DSA(Sorting)
+**Date:** 16-Jan-2025
+
+### Questions:
+
+- RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+- CinemaHouse – Movie Time Sorting (Bubble Sort)
+- CropMonitor – Sensor Data Ordering (Quick Sort)
+
+🔗 **Code Link:**
+👉 [Link]()
+
+---
+### 🗓 Day 6 – Scenario based questions of DSA(Sorting) & OOPs
+**Date:** 17-Jan-2025
+
+### Questions(Sorting):
+
+- ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+- FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+-  IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+-  SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+
+🔗 **Code Link:**
+👉 [Link]()
+
+### Questions(OOPs):
+
+- GeoMeasure Solutions
+- Bag-n-Ball Organizer
+
+🔗 **Code Link:**
+👉 [Link]()
+
+---
+# Week 6: Solved Scenario Based Questions on DSA(Sorting)
+
+--- 
+### 📅 Day 1 – Scenario based questions of DSA & OOPs
+**Date:** 19-Jan-2025  
+
+### Questions(Sorting):
+
+- EduResults – Rank Sheet Generator (Merge Sort)
+- FlashDealz – Product Sorting by Discount (Quick Sort)
+- FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+
+### Questions(OOPs):
+
+- DigiContact
+
+🔗 **Code Link:**
+👉 [Link]()
+
+--- 
+### 📅 Day 2 – Scenario based questions of DSA(Sorting)
+**Date:** 20-Jan-2025  
+
+### Questions(Sorting):
+
+- MovieTime – Theater Show Listings (Insertion Sort)
+- FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+- GamerZone – High Score Ranking System (Quick Sort)
+
+🔗 **Code Link:**
+👉 [Link]()
+--- 
+### 📅 Day 3 – Scenario based questions of DSA(Sorting)
+**Date:** 21-Jan-2025  
+
+### Questions(Sorting):
+
+- TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+- MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+
+🔗 **Code Link:**
+👉 [Link]()
