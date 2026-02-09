@@ -724,3 +724,30 @@ Learned and practiced Encapsulation along with scenario-based OOPS problem solvi
 👉 [Link]()
 
 ---
+## Week 04 - Java Collections, Streams
+- Java Streams
+- Java Collections
+- Collections
+- Exceptions
+- Range & Juliet
+
+## Week 05 - I/O Programming
+- I/O Java Reading
+- I/O Input Reading
+- JSON data
+
+## Week 06 - Java 8 & I/O Features
+- Lambda expressions
+- Functional Interfaces
+- Streams API
+- Collections of Collectors
+- Java Features
+
+---
+
+## Week 07 - Design pattern and principles
+- Design Patterns
+- Design Principles
+- Multithreading
+
+---
