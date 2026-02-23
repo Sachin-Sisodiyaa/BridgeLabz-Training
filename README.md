@@ -57,12 +57,12 @@ Training Repository/
 - ✅ Scenario-Based Applications (10+ projects)
 - ✅ Real-world System Design
 
-[📂 View Detailed Work →](https://github.com/rudresh-sharma/BridgeLabz-Training/blob/core-java-practice/README.md)
+[📂 View Detailed Work →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/core-java-practice/README.md)
 
 ---
 
 ### Week 2: Object-Oriented Programming
-**Branch:** [`java-oops-practice`](https://github.com/rudresh-sharma/BridgeLabz-Training/tree/java-oops-practice)
+**Branch:** [`java-oops-practice`](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-oops-practice)
 
 **Objective:** Master OOP principles and design patterns
 
@@ -91,12 +91,12 @@ Training Repository/
 - Healthcare, Finance, E-commerce, Education systems
 - Complete OOP implementation
 
-[📂 View Detailed Work →](https://github.com/rudresh-sharma/BridgeLabz-Training/blob/java-oops-practice/README.md)
+[📂 View Detailed Work →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/java-oops-practice/README.md)
 
 ---
 
 ### Week 3: Data Structures & Algorithms
-**Branch:** [`java-dsa-practice`](https://github.com/rudresh-sharma/BridgeLabz-Training/tree/java-dsa-practice)
+**Branch:** [`java-dsa-practice`](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice)
 
 **Objective:** Build algorithmic thinking and problem-solving skills
 
@@ -125,12 +125,12 @@ Training Repository/
 - 10+ real-world applications
 - Comprehensive complexity analysis
 
-[📂 View Detailed Work →](https://github.com/rudresh-sharma/BridgeLabz-Training/blob/java-dsa-practice/README.md)
+[📂 View Detailed Work →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/java-dsa-practice/README.md)
 
 ---
 
 ### Week 4: Collections Framework & Advanced Java Concepts
-**Branch:** [`java-collections-practice`](https://github.com/rudresh-sharma/BridgeLabz-Training/tree/java-collections-practice)  
+**Branch:** [`java-collections-practice`](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-collections-practice)  
 
 
 **Objective:** Master Collection Framework and advanced Java concepts  
@@ -217,13 +217,13 @@ Training Repository/
 - 30+ practical use cases solved
 - Complete complexity analysis
 
-[📂 View Detailed Work →](https://github.com/rudresh-sharma/BridgeLabz-Training/blob/java-collections-practice/README.md)  
+[📂 View Detailed Work →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/java-collections-practice/README.md)  
 
 
 ---
 
 ### Week 5: IO Programming
-**Branch:** [`java-iostreams-practice`](https://github.com/rudresh-sharma/BridgeLabz-Training/tree/java-iostreams-practice) <br>
+**Branch:** [`java-iostreams-practice`](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice) 
 **Objective:** Master file handling, data serialization, and I/O operations in Java
 
 ####📘Topics Covered
@@ -265,13 +265,13 @@ Training Repository/
 - Error handling and resource management
 
 
-[📂 View Detailed Work →](https://github.com/rudresh-sharma/BridgeLabz-Training/blob/java-iostreams-practice/README.md)
+[📂 View Detailed Work →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/java-iostreams-practice/README.md)
 
 ---
 
 
 ### Week 6: Java 8 & its Features
-**Branch:** [`java8-programming-practice`](https://github.com/rudresh-sharma/BridgeLabz-Training/tree/java8-programming-practice) <br>
+**Branch:** [`java8-programming-practice`](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java8-programming-practice) 
 **Objective:** Master modern Java programming with functional programming paradigms and advanced features
 
 ####📘Topics Covered
@@ -328,12 +328,12 @@ Training Repository/
 - Workshop: Smart City Transport & Service Management System
 
 
-[📂 View Detailed Work →](https://github.com/rudresh-sharma/BridgeLabz-Training/blob/java8-programming-practice/README.md)
+[📂 View Detailed Work →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/java8-programming-practice/README.md)
 
 ---
 
 ### Week 7: Design Patterns & Multithreading  
-**Branch:** [`java-design-pattern-practice`](https://github.com/rudresh-sharma/BridgeLabz-Training/tree/java-design-pattern-practice) <br>  
+**Branch:** [`java-design-pattern-practice`](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-design-pattern-practice)   
 **Objective:** Master software design principles, implement Gang of Four design patterns, and develop concurrent programming skills with Java multithreading  
 
 ####📘Topics Covered
@@ -437,6 +437,6 @@ Training Repository/
 - Case Study: Smart University Library Management System (LMS)
 - Mini Project: Concurrent Task Execution Framework  
 
-[📂 View Detailed Work →](https://github.com/rudresh-sharma/BridgeLabz-Training/blob/java-design-pattern-practice/README.md)
+[📂 View Detailed Work →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/blob/java-design-pattern-practice/README.md)
 
 ---
