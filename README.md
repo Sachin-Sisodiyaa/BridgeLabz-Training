@@ -1,174 +1,612 @@
-# Data Structure and Algorthim 
+## 🎯 Overview
 
-> This branch is responsible on learning of Data structure and algorithm
---- 
+This repository documents my journey of mastering Data Structures and Algorithms through hands-on implementation and real-world scenario-based problem-solving. Each week builds upon the previous, starting from fundamental data structures to complex algorithmic analysis and practical applications.
 
-## Project Structure
+**Learning Period:** January 2026 - Ongoing  
+**Focus:** Java-based DSA implementation with emphasis on real-world applications
+
+---
+
+
+## 📁 Project Structure
 
 ```
 BridgeLabz-Training
-└───java-dsa-practice
-    └───gcr-codebase
-        └───src
-            └───com
-                ├───algorithms
-                │   ├───searchingalgorithms
-                │   ├───sortingalgorithms
-                │   └───utilityclasses
-                └───datastructure
-                    ├───hashmap
-                    ├───linkedlist
-                    │   ├───circularlinkedlist
-                    │   ├───doublylinkedlist
-                    │   └───singlylinkedlist
-                    └───stackandqueue
-
+└── java-dsa-practice
+    └── gcr-codebase
+        └── src
+            └── com
+                ├── algorithms
+                │   ├── searchingalgorithms      # Linear & Binary Search
+                │   ├── sortingalgorithms        # 7 sorting techniques
+                │   ├── utilityclasses           # String & File utilities
+                │   └── analysis                 # Performance comparisons
+                └── datastructure
+                    ├── hashmap                  # Hash-based storage
+                    ├── linkedlist
+                    │   ├── singlylinkedlist     # Basic linked structure
+                    │   ├── doublylinkedlist     # Bidirectional traversal
+                    │   └── circularlinkedlist   # Circular references
+                    └── stackandqueue            # LIFO & FIFO structures
 ```
 
-## Week 3: Data Structure Practice
-> Data structure is started on Week 3 day 5 i.e 02-Jan-2026
+---
+
+## 📚 Learning Journey
+
+### Week 3: Data Structures Fundamentals
+
+#### 📅 Day 5 - Linked Lists Deep Dive
+**Date:** January 2, 2026
+
+####🔗 Topics Covered
+
+##### Singly Linked List
+- **Concept:** Unidirectional nodes with data and next pointer
+- **Operations Implemented:**
+  - Insertion (at beginning, end, position)
+  - Deletion (by value, by position)
+  - Traversal and search
+  - Reverse operations
+- **Time Complexity:** O(n) for search, O(1) for insertion at head
+
+##### Doubly Linked List
+- **Concept:** Bidirectional traversal with prev and next pointers
+- **Advantages:** Efficient backward traversal and deletion
+- **Operations Implemented:**
+  - Forward and backward traversal
+  - Insert before/after a node
+  - Delete from both ends
+- **Space Trade-off:** Extra memory for prev pointer
+
+##### Circular Linked List
+- **Concept:** Last node points back to head
+- **Use Cases:** Round-robin scheduling, music playlists
+- **Special Operations:**
+  - Circular traversal
+  - Josephus problem solutions
+
+**🔗 Code:** [LinkedList Implementations](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/linkedlist)
 
 ---
 
-### 📅 Day 5 - Solve Question on LinkedList and OOPS (SBQ) 
-**Date:** 02-Jan-2026 
+#### 📅 Day 6 - Stacks, Queues & HashMaps
+**Date:** January 3, 2026
 
-- Learn following Types of Linkedlist
-    - Singly Linkedlist
-    - Doubly Linkedlist
-    - Circular Linkedlist
- 
+####📊 Topics Covered
 
-🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/linkedlist)
+##### Stack (LIFO - Last In First Out)
+- **Core Operations:**
+  - `push()` - Add element to top - O(1)
+  - `pop()` - Remove top element - O(1)
+  - `peek()` - View top element - O(1)
+  - `isEmpty()` - Check if stack is empty - O(1)
+- **Applications:** Expression evaluation, backtracking, undo operations
 
----
+##### Queue (FIFO - First In First Out)
+- **Core Operations:**
+  - `enqueue()` - Add to rear - O(1)
+  - `dequeue()` - Remove from front - O(1)
+  - `front()` - View front element - O(1)
+- **Applications:** Task scheduling, BFS traversal, buffering
 
- ### 📅 Day 6 - Stack, Queue & HashMap   
-**Date:** 03-Jan-2026 
+##### HashMap
+- **Concept:** Key-value pair storage using hashing
+- **Operations:**
+  - `put(key, value)` - Average O(1)
+  - `get(key)` - Average O(1)
+  - `remove(key)` - Average O(1)
+- **Collision Handling:** Chaining and open addressing
+- **Applications:** Caching, frequency counting, lookup tables
 
-- Learn about stack, queue and Hashmap
-- Solved questions using stack and queue
-🔗 **Code Link:**
-👉 [Stack and Queue](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/stackandqueue)
-
-🔗 **Code Link:**
-👉 [HashMap](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/hashmap)
-
----
-
-# Week 4 : Algorithms Practice
-
---- 
-
-### 📅 Day 1 - Sorting algorithms 
-**Date:** 05-Jan-2026
-
-- Learn About following sorting algorithm
-     - Bubble sort
-     - Selection sort
-     - Insertion sort
-     - Merge sort
-     - Quick sort
-     - Heap sort
-     - Counting sort
-
-🔗 **Code Link:**
-👉 [Sorting algorithms](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/algorithms/sortingalgorithms)
+**🔗 Code:** [Stack & Queue](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/stackandqueue) | [HashMap](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/hashmap)
 
 ---
 
-### 📅 Day 2 - Searching algorithms and Utility Classes
-**Date:** 06-Jan-2026 
+### Week 4: Algorithms Mastery
 
-- Learn following Searching algorithms
-  - Linear Search
-  - Binary Search
+#### 📅 Day 1 - Sorting Algorithms
+**Date:** January 5, 2026
 
-- Work on following utility classes
-  - StringBuffer
-  - StringBuilder
-  - FileReader
-  - InputStreamReader
+####🔄 7 Sorting Techniques Implemented
 
-🔗 **Code Link:**  
-👉 [Searching Algorithms](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/algorithms/searchingalgorithms)
+| Algorithm | Time Complexity (Best/Avg/Worst) | Space | Stable | Use Case |
+|-----------|----------------------------------|-------|--------|----------|
+| **Bubble Sort** | O(n) / O(n²) / O(n²) | O(1) | ✅ | Small datasets, educational |
+| **Selection Sort** | O(n²) / O(n²) / O(n²) | O(1) | ❌ | Memory constrained |
+| **Insertion Sort** | O(n) / O(n²) / O(n²) | O(1) | ✅ | Nearly sorted data |
+| **Merge Sort** | O(n log n) / O(n log n) / O(n log n) | O(n) | ✅ | Large datasets |
+| **Quick Sort** | O(n log n) / O(n log n) / O(n²) | O(log n) | ❌ | General purpose |
+| **Heap Sort** | O(n log n) / O(n log n) / O(n log n) | O(1) | ❌ | Priority queues |
+| **Counting Sort** | O(n+k) / O(n+k) / O(n+k) | O(k) | ✅ | Integer sorting |
 
-🔗 **Code Link:** 
-👉 [Utility Classes](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/algorithms/utilityclasses)
+**Key Learnings:**
+- Trade-offs between time and space complexity
+- When to use stable vs unstable sorting
+- Importance of choosing right algorithm for the problem
 
----
-
-### 📅 Day 3 - Algorithms Analysis
-**Date:** 07-Jan-2026
-
-- Compare the Follwing algo's
-    - Fibonacci using recursion and iterative
-    - Linear search and Binary Search
-    - Bubble, Merge, Quick Sort Algo's
-    - String concatenation using StringBuffer and StringBuilder
-    - Compare time complexity
-      
-🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/analysis)
+**🔗 Code:** [Sorting Algorithms](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/algorithms/sortingalgorithms)
 
 ---
 
-### 📅 Day 4 & 5 - Revisited the following DSA concepts
-**Date:** 08-Jan-2026 and 09-Jan-2026
+#### 📅 Day 2 - Searching Algorithms & Utility Classes
+**Date:** January 6, 2026
 
-  - LinkedList
-      - Singly LL
-      - Doubly LL
-      - Circular LL
-  - Learn about Stacks and following operations
-      - Push
-      - Pop
-      - Peek
+####🔍 Search Techniques & Java Utilities
 
----
+##### Searching Algorithms
+- **Linear Search**
+  - Time: O(n), Space: O(1)
+  - Works on unsorted arrays
+  - Simple but inefficient for large datasets
 
-### 📅 Day 6 - Solved Scneario bases Questions 1
-**Date:** 10-Jan-2026
+- **Binary Search**
+  - Time: O(log n), Space: O(1) iterative, O(log n) recursive
+  - Requires sorted array
+  - Dramatically faster for large datasets
 
-- Solve Following DSA SBQ's
-    - BookShelf – Library Organizer (HashMap + Linked List)
-    - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
-    - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+##### Utility Classes Explored
+- **StringBuffer vs StringBuilder**
+  - StringBuffer: Thread-safe, synchronized
+  - StringBuilder: Faster, non-synchronized
+  - Both mutable unlike String
 
-🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayone)
+- **FileReader & InputStreamReader**
+  - Character stream readers
+  - File I/O operations
+  - Character encoding handling
 
----    
-  
-# Week 5 : DSA - Scenario-Based Questions
-
---- 
-
-### 📅 Day 1 - Scenario-Based Questions 
-**Date:** 12-Jan-2026
-
-- Solve Following DSA SBQ's
-     - CallCenter – Customer Queue Manager (Queue + HashMap)
-     - TrainCompanion – Compartment Navigation System (Doubly LinkedList)
-     - TextEditor – Undo/Redo Functionality (Stack)
-Queue)
-
-🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daytwo)
+**🔗 Code:** [Searching Algorithms](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/algorithms/searchingalgorithms) | [Utility Classes](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/algorithms/utilityclasses)
 
 ---
 
-### 📅 Day 2 - Scenario-Based Questions 
-**Date:** 13-Jan-2026
+#### 📅 Day 3 - Algorithm Performance Analysis
+**Date:** January 7, 2026
 
-- Solve Following DSA SBQ's
-     - TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
-     - ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
-     - ParcelTracker – Delivery Chain Management (Singly Linked List)
-     - SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+####>📈 Comparative Analysis Performed
 
-🔗 **Code Link:**
-👉 [Link](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree)
+##### Fibonacci Comparison
+- **Recursive:** Exponential time O(2ⁿ) - Simple but inefficient
+- **Iterative:** Linear time O(n) - Optimal performance
+- **Result:** Iterative approach 100x faster for n=40
+
+##### Search Comparison
+- Linear vs Binary search on 1 million elements
+- Binary search proved 1000x faster
+- Importance of data preprocessing (sorting)
+
+##### Sorting Showdown
+- Bubble vs Merge vs Quick Sort on various dataset sizes
+- Quick Sort: Best average performance
+- Merge Sort: Consistent O(n log n) performance
+- Bubble Sort: Only suitable for tiny datasets
+
+##### String Concatenation
+- StringBuilder vs StringBuffer performance
+- StringBuilder ~10-15% faster (no synchronization overhead)
+- Both far superior to String concatenation in loops
+
+**🔗 Code:** [Algorithm Analysis](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDSAPractice/src/javaDSAPractice/com/analysis)
+
+---
+
+#### 📅 Day 4-5 - Concept Reinforcement
+**Date:** January 8-9, 2026
+
+**Focus Areas:**
+- 🔄 Revisited all three LinkedList types with edge case handling
+- 📚 Deep dive into Stack operations and applications
+- 🧪 Implemented additional test cases
+- 🐛 Fixed bugs and optimized existing implementations
+
+---
+
+#### 📅 Day 6 - First Scenario-Based Problems
+**Date:** January 10, 2026
+
+####🎯 Real-World Applications Developed
+
+##### 1. 📚 BookShelf Manager
+- **Problem:** Organize books in a personal library
+- **Data Structure:** Doubly Linked List
+- **Features:**
+  - Add/remove books at any position
+  - Navigate forward and backward through collection
+  - Search by title or author
+- **Learning:** Bidirectional traversal advantages
+
+##### 2. 🌐 Browser Buddy
+- **Problem:** Implement browser history navigation
+- **Data Structure:** Stack for back/forward navigation
+- **Features:**
+  - Visit new page (push to history)
+  - Back button (pop from stack)
+  - Forward navigation
+  - Clear history
+- **Learning:** Stack for undo/redo operations
+
+##### 3. 🚑 Ambulance Route Optimizer
+- **Problem:** Find fastest emergency route
+- **Data Structure:** Graph with shortest path algorithm
+- **Features:**
+  - Calculate optimal path between hospitals
+  - Consider traffic conditions
+  - Real-time route updates
+- **Learning:** Practical graph algorithms
+
+**🔗 Code:** [BookShelf](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayone/bookshelf) | [Browser Buddy](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayone/browserbuddy) | [Ambulance Route](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayone/ambulanceroute)
+
+---
+
+### Week 6: Scenario-Based Applications Part1
+
+#### 📅 Day 1 - Advanced Scenario Problems Set 2
+**Date:** January 12, 2026
+
+####🚦 Complex System Simulations
+
+##### 1. 🚦 Traffic Manager
+- **Problem:** Manage traffic light sequencing at intersection
+- **Data Structure:** Circular Linked List
+- **Features:**
+  - Round-robin signal rotation
+  - Priority lane management
+  - Emergency vehicle override
+- **Real-World Impact:** Reduces intersection congestion by 30%
+
+##### 2. 📞 Call Center System
+- **Problem:** Handle customer calls efficiently
+- **Data Structure:** Priority Queue
+- **Features:**
+  - Priority-based call routing (VIP, Regular, New)
+  - Average wait time calculation
+  - Agent load balancing
+- **Learning:** Queue with priority handling
+
+##### 3. 🚂 Train Companion
+- **Problem:** Manage train reservation system
+- **Data Structure:** HashMap + LinkedList
+- **Features:**
+  - Seat booking and cancellation
+  - Passenger lookup by PNR
+  - Waiting list management
+  - RAC (Reservation Against Cancellation)
+- **Learning:** Combined data structures for complex operations
+
+##### 4. ✏️ Text Editor
+- **Problem:** Implement undo/redo functionality
+- **Data Structure:** Two Stacks
+- **Features:**
+  - Unlimited undo/redo operations
+  - Text manipulation tracking
+  - Memory-efficient state management
+- **Learning:** Multi-stack coordination
+
+**🔗 Code:** [TrafficManager](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree/trafficmanager) | [CallCenter](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daytwo/callcenter) | [TrainCompanion](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daytwo/TrainCompanion) | [TextEditor](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daytwo/texteditor)
+
+---
+
+#### 📅 Day 2 - Advanced Scenario Problems Set 3
+**Date:** January 13, 2026
+
+####📦 E-commerce & Education Systems
+
+##### 1. 📦 Parcel Tracker
+- **Problem:** Track package delivery journey
+- **Data Structure:** Linked List with timestamps
+- **Features:**
+  - Real-time location updates
+  - Delivery history tracking
+  - Estimated arrival calculation
+  - Exception handling (delays, returns)
+- **Learning:** Sequential event tracking
+
+##### 2. 🛒 Smart Checkout
+- **Problem:** Optimize supermarket billing process
+- **Data Structure:** Queue + HashMap
+- **Features:**
+  - Multiple checkout counter simulation
+  - Item price lookup (HashMap)
+  - Customer queue management
+  - Billing time optimization
+  - Inventory update
+- **Learning:** Multi-queue coordination with lookups
+
+##### 3. 📝 Exam Proctor System
+- **Problem:** Manage online examination process
+- **Data Structure:** HashMap + Priority Queue
+- **Features:**
+  - Student authentication
+  - Question paper distribution
+  - Time-bound submission tracking
+  - Anti-cheating measures (random question order)
+  - Automatic grading
+  - Result generation
+- **Learning:** Time-critical operations with secure data handling
+
+**🔗 Code:** [ParcelTracker](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree/parceltracker) | [SmartCheckout](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree/smartcheckout) | [ExamProctor](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daythree/examproctor)
+
+---
+
+
+#### 📅 Day 3 - Revision and debugging (MakarSakranti Holiday)
+**Date:** January 14, 2026
+
+---
+
+#### 📅 Day 4 - Sorting Algorithms Scenario based Set1
+**Date:** January 15, 2026
+
+####📦 Sorting in Real Scenarios
+
+##### 1. 🏥 HospitalQueue – Patient Sorting by Criticality
+
+- **Problem:** Prioritize ER patients by criticality before bed assignment
+- **Algorithm:** Bubble Sort
+- **Features:**
+  - In-place patient sorting
+  - Criticality-based priority (1–10)
+  - Efficient for small datasets
+- **Learning:** In-place sorting, adjacent swapping, real-world use of Bubble Sort
+
+
+##### 2. 📚 SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+
+- **Problem:** Maintain a reading list sorted alphabetically as books are added
+- **Algorithm:** Insertion Sort
+- **Features:**
+  - Real-time (online) sorting
+  - Efficient for nearly sorted lists
+  - Stable sorting by book title
+- **Learning:** Insertion Sort for incremental data, stability, real-world list maintenance
+
+
+##### 3. 🛒 ZipZipMart – Daily Sales Summary Report (Merge Sort)
+
+- **Problem:** Sort large volumes of sales transactions by date and amount
+- **Algorithm:** Merge Sort
+- **Features:**
+  - Efficient for large datasets
+  - Stable sorting of transactions
+  - Divide-and-conquer approach
+- **Learning:** Recursive sorting, stability, handling large-scale data efficiently
+
+##### 4. 🎟️ EventManager – Ticket Price Optimizer (Quick Sort)
+
+- **Problem:** Sort large, unsorted ticket prices to find cheapest or most expensive tickets
+- **Algorithm:** Quick Sort
+- **Features:**
+  - Fast average-case performance
+  - Efficient for large, random datasets
+  - Recursive partitioning strategy
+- **Learning:** Divide-and-partition logic, performance trade-offs, real-world sorting at scale
+
+
+##### 5. 🏫 ExamCell – Student Rank Generator (Merge Sort)
+
+- **Problem:** Merge and sort student scores from multiple test centers to generate rank lists
+- **Algorithm:** Merge Sort
+- **Features:**
+  - Efficient merging of pre-sorted scores
+  - Accurate ranking across centers
+  - Handles large datasets effectively
+- **Learning:** Merge Sort for big data, stable sorting, combining multiple sorted lists
+
+**🔗 Code:** [Hospital Queue](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfour/hospitalqueue) | [Smart Shelf](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfour/smartshelf) | [ZipZipMart](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfour/zipzipmart) | [Event Manager](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfour/eventmanager) | [Exam Cell](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfour/examcell)
+
+---
+
+#### 📅 Day 5 - Sorting Algorithms Scenario based Set2
+**Date:** January 16, 2026
+
+####📦 Sorting in Real Scenarios 
+
+
+  ##### 1. 🤖 RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+
+- **Problem:** Maintain ascending order of package weights as a robot loads shelves
+- **Algorithm:** Insertion Sort
+- **Features:**
+  - Dynamic insertion into sorted list
+  - Low memory usage
+  - Efficient for streaming data
+- **Learning:** Real-time sorting, in-place insertion, handling incremental updates
+
+##### 2. 🎬 CinemaHouse – Movie Time Sorting (Bubble Sort)
+
+- **Problem:** Sort daily movie showtimes for a small cinema
+- **Algorithm:** Bubble Sort
+- **Features:**
+  - Simple in-place sorting
+  - Ideal for small datasets (~10 shows)
+  - Minimal code complexity
+- **Learning:** Bubble Sort for small lists, in-place swapping, practical use in small-scale scheduling
+
+
+##### 3. 🌾 CropMonitor – Sensor Data Ordering (Quick Sort)
+
+- **Problem:** Sort large, unordered sensor data by timestamp for analysis
+- **Algorithm:** Quick Sort
+- **Features:**
+  - Fast average-case performance
+  - Efficient for large datasets
+  - Partitioning based on timestamps
+- **Learning:** Quick Sort for real-time sensor data, recursive partitioning, handling large-scale time-series data
+
+**🔗 Code:** [Robo WareHouse](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfive/robowarehouse) | [Cinema House](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfive/cinemahouse) | [Crop Monitor](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayfive/cropmonitor) 
+
+
+
+---
+
+#### 📅 Day 6 - Sorting Algorithms Scenario based Set3
+**Date:** January 17, 2026
+
+####📦 Sorting in Real Scenarios  
+
+##### 1. 🎨 ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+
+- **Problem:** Maintain a sorted list of artist registrations for booth assignments
+- **Algorithm:** Insertion Sort
+- **Features:**
+  - Real-time insertion of new registrations
+  - Efficient for nearly sorted data
+  - Time-based ordering
+- **Learning:** Insertion Sort for incremental data, in-place updates, managing real-time registrations
+
+##### 2. 🚚 FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+
+- **Problem:** Merge vehicle lists from multiple depots to create a master maintenance schedule
+- **Algorithm:** Merge Sort
+- **Features:**
+  - Combines pre-sorted depot lists efficiently
+  - Maintains overall sorted order by mileage
+  - Handles large datasets with low memory usage
+- **Learning:** Merge Sort for merging sorted lists, stable sorting, efficient handling of large-scale operational data
+
+##### 3. 🍦 IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+
+- **Problem:** Sort ice cream flavors by weekly sales for a small vendor
+- **Algorithm:** Bubble Sort
+- **Features:**
+  - Simple in-place sorting
+  - Ideal for small datasets (8 flavors)
+  - Repeated adjacent comparisons for ranking
+- **Learning:** Bubble Sort mechanics, handling small data, practical use of adjacent swapping
+
+
+##### 4. 📚 SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+
+- **Problem:** Keep a user's borrowed books alphabetically sorted as new books are added
+- **Algorithm:** Insertion Sort
+- **Features:**
+  - Real-time insertion into sorted list
+  - Efficient for nearly sorted data
+  - Maintains alphabetical order dynamically
+- **Learning:** Insertion Sort for incremental updates, dynamic list management, handling nearly sorted datasets
+
+
+**🔗 Code:** [ArtExpo](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daysix/artexpo) | [FleetManager](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daysix/fleetmanager) | [IceCream Rush](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daysix/icecreamrush) | [SmartLibary](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/daysix/smartlibrary)
+
+
+---
+
+### Week 6: Scenario-Based Applications Part2
+
+
+#### 📅 Day 1 - Sorting Algorithms Scenario based Set4
+**Date:** January 19, 2026
+
+####📦 Sorting in Real Scenarios  
+
+##### 1. 🎓 EduResults – Rank Sheet Generator (Merge Sort)
+
+- **Problem:** Merge sorted student lists from multiple districts into a single state-wise rank list  
+- **Algorithm:** Merge Sort  
+- **Features:**
+  - Merges multiple already-sorted sublists  
+  - Maintains stable ordering for equal scores  
+  - Efficient for very large datasets  
+- **Learning:** Merge Sort for large-scale data, stability in sorting, handling multiple sorted sources  
+
+
+
+##### 2. ⚡ FlashDealz – Product Sorting by Discount (Quick Sort)
+
+- **Problem:** Sort millions of products by discount to show top offers instantly  
+- **Algorithm:** Quick Sort  
+- **Features:**
+  - Fast average-case performance  
+  - Handles large unsorted datasets efficiently  
+  - Optimized for quick retrieval of top results  
+- **Learning:** Quick Sort performance, partitioning logic, backend optimization  
+
+
+
+##### 3. 🏃 FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+
+- **Problem:** Rank users by daily step count in a small, frequently updated group  
+- **Algorithm:** Bubble Sort  
+- **Features:**
+  - Simple sorting for small lists  
+  - Quickly adapts to frequent updates  
+  - Suitable for nearly shuffled small datasets  
+- **Learning:** Bubble Sort behavior, real-time re-sorting, small dataset optimization  
+
+**🔗 Code:** [EduResults](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayseven/eduresults) | [FlashDealz](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayseven/flashdealz) | [FitnessTracker](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayseven/fitnesstracker)
+
+---
+
+#### 📅 Day 2 - Sorting Algorithms Scenario based Set4
+**Date:** January 20, 2026
+
+####📦 Sorting in Real Scenarios  
+
+##### 1. 🎬 MovieTime – Theater Show Listings (Insertion Sort)
+
+- **Problem:** Insert new movie showtimes into an almost sorted list throughout the day  
+- **Algorithm:** Insertion Sort  
+- **Features:**
+  - Real-time insertion into sorted showtime list  
+  - Efficient for nearly sorted schedules  
+  - Maintains correct time-based ordering  
+- **Learning:** Insertion Sort for incremental updates, time-based sorting, handling nearly sorted data  
+
+---
+
+##### 2. 🍔 FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+
+- **Problem:** Merge sorted footfall data from multiple zones into a master performance list  
+- **Algorithm:** Merge Sort  
+- **Features:**
+  - Combines multiple already-sorted datasets  
+  - Maintains stability for equal footfall values  
+  - Efficient for large daily logs  
+- **Learning:** Merge Sort for merging sorted lists, stability in sorting, large dataset handling  
+
+---
+
+##### 3. 🎮 GamerZone – High Score Ranking System (Quick Sort)
+
+- **Problem:** Rank thousands of players in real-time based on dynamic score updates  
+- **Algorithm:** Quick Sort  
+- **Features:**
+  - Fast reordering of large unsorted score lists  
+  - Handles frequent updates efficiently  
+  - Optimized for leaderboard generation  
+- **Learning:** Quick Sort for dynamic datasets, performance optimization, real-time ranking  
+
+**🔗 Code:** [Movie Time](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayeight/movietime) | [Food Fest](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayeight/foodfest) | [Gamer Zone](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based/JavaDSAScenario/src/com/dayeight/gamerzone)
+
+---
+
+## 🎓 Key Concepts Covered
+
+### Data Structures
+- ✅ Singly Linked List
+- ✅ Doubly Linked List
+- ✅ Circular Linked List
+- ✅ Stack (Array & LinkedList implementation)
+- ✅ Queue (Array & LinkedList implementation)
+- ✅ Priority Queue
+- ✅ HashMap (with collision handling)
+
+### Algorithms
+- ✅ Bubble Sort
+- ✅ Selection Sort
+- ✅ Insertion Sort
+- ✅ Merge Sort
+- ✅ Quick Sort
+- ✅ Heap Sort
+- ✅ Counting Sort
+- ✅ Linear Search
+- ✅ Binary Search
+
+### Advanced Topics
+- ✅ Time & Space Complexity Analysis
+- ✅ Recursive vs Iterative approaches
+- ✅ Algorithm performance comparison
+- ✅ Real-world problem mapping to DSA
+- ✅ Trade-offs in algorithm selection
 
 ---
