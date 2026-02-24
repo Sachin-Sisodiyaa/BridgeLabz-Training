@@ -1,156 +1,642 @@
-## 🗓 Week 1: Git, GitHub & Java Programming Fundamentals  
+## 🎯 Overview
+
+Welcome to my **Java IO Programming Practice Repository**! This repository documents my comprehensive learning journey through Java Input/Output operations, focusing on practical implementations of CSV and JSON data handling, along with advanced reflection and annotation techniques.
+
+### 🌟 What Makes This Special?
+
+- **40+ Hands-on Problems** solved across CSV and JSON domains
+- **Real-world Scenarios** with industry-standard practices
+- **Progressive Difficulty** from basics to advanced concepts
+- **Production-ready Code** with proper error handling
+- **Well-documented Solutions** with inline comments
+
+### 📅 Learning Timeline
+
+**Learning Period:** January 2025 - Ongoing  
+**Current Focus:** Week 5 - Java IO Streams, CSV/JSON Processing, Reflection  
+**Branch:** `java-iostreams-practice`  
+**Institution:** BridgeLabz Training Program
 
 ---
 
-### 📅 Day 1 – Git & GitHub Initialization  
+## 📁 Project Structure
 
-**Date:** 15-Dec-2025  
-
-### 🔧 Tasks Completed
-- Installed and configured Git on the local system  
-- Created and linked a GitHub repository  
-- Created a separate working branch: `core-java-practice`  
-- Learned and practiced essential Git commands:
-  - `git init`
-  - `git status`
-  - `git add`
-  - `git commit -m ""`
-  - `git push`
-- Successfully pushed the initial codebase to GitHub  
-
----
-
-### 📂 Repository Structure
 ```
-BridgeLabz-Training/
+java-iostreams-practice/
 │
-├── core-java-practice/
-│ │
-│ ├── gcr-codebase/
-│ │ ├── arrays/
-│ │ ├── builtIn-functions/
-│ │ ├── control-flow/
-│ │ ├── java-methods/
-│ │ ├── programming-elements/
-│ │ ├── string-handling/
-│ │ └── strings/
-│ │
-│ ├── leet-code-codebase/
-│ └── scenario-based/
+├── 📂 gcr-codebase/
+│   └── JavaIostreamsPractice/
+│       └── src/
+│           └── com/
+│               ├── csvdatahandling/          # 15 CSV problems
+│               │   ├── question1/            # Basic CSV reading
+│               │   ├── question2/            # CSV writing
+│               │   ├── question3/            # Row counting
+│               │   ├── question4/            # Filtering records
+│               │   ├── question5/            # Search operations
+│               │   ├── question6/            # Data modification
+│               │   ├── question7/            # Sorting & ranking
+│               │   ├── question8/            # Data validation
+│               │   ├── question9/            # Object mapping
+│               │   ├── question10/           # File merging
+│               │   ├── question11/           # Large file handling
+│               │   ├── question12/           # Duplicate detection
+│               │   ├── question13/           # Database integration
+│               │   ├── question14/           # Format conversion
+│               │   └── question15/           # Encryption/Decryption
+│               │
+│               └── jsondata/                 # 13 JSON problems
+│                   ├── question1/            # JSON object creation
+│                   ├── question2/            # Java to JSON conversion
+│                   ├── question3/            # Field extraction
+│                   ├── question4/            # Object merging
+│                   ├── question5/            # Structure validation
+│                   ├── question6/            # Array conversion
+│                   ├── question7/            # Data filtering
+│                   ├── question8/            # Key-value iteration
+│                   ├── question9/            # Advanced filtering
+│                   ├── question10/           # File merging
+│                   ├── question11/           # JSON to XML
+│                   ├── question12/           # CSV to JSON
+│                   └── question13/           # Database reports
 │
-└── README.md
+└── 📂 scenario-based/
+    └── JavaIostreamsScenario/
+        └── src/
+            └── com/
+                └── day1/
+                    ├── healthcheckpro/       # API validator
+                    ├── eventtracker/         # Audit system
+                    └── markmate/             # Report generator
 ```
----
-
-### 📅 Day 2 – Git Practice & Basic Java Programs  
-**Date:** 16-Dec-2025
-
-- Practiced Git workflow to understand version control and commits  
-- Solved basic Java programs to understand syntax and structure  
-- Added, committed, and pushed Java files to GitHub
-
-🔗 **Code Link:**  
-👉 [Basic Java Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequistes)
 
 ---
 
-### 📅 Day 3 – Programming Elements in Java  
-**Date:** 17-Dec-2025
+## 📚 Learning Journey
 
-- Studied Java programming elements:
-  - Variables and data types
-  - Operators
-  - User input and output
-- Solved practice problems based on programming elements  
-- Committed and pushed solutions to the repository
-    
-🔗 **Code Link:**  
-👉 [Programming Elements](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+### Week 5: CSV & JSON Data Handling
+
+> **Focus Areas:** File I/O, Data Parsing, Format Conversion, Validation, Performance Optimization
 
 ---
 
-### 📅 Day 4 – Control Flow & Logical Constructs  
-**Date:** 18-Dec-2025
+#### 📅 Day 1 - CSV Mastery
+**Date:** January 23, 2026  
+**Focus:** CSV File Operations & Data Manipulation
 
-- Studied control flow statements:
-  - `if`, `if-else`
-  - `switch`
-  - Ternary operator
-- Practiced looping constructs:
-  - `for`, `while`, `do-while`
-- Used `break` and `continue` statements  
-- Solved logical problems such as:
-  - Factorial calculation
-  - Prime number check
+<div align="center">
 
-🔗 **Code Link:**  
-👉 [Control Flow Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
+| # | Problem | Complexity | Key Concepts |
+|---|---------|------------|--------------|
+| 1️⃣ | Read & Print CSV | 🟢 Beginner | BufferedReader, String.split() |
+| 2️⃣ | Write to CSV | 🟢 Beginner | FileWriter, PrintWriter |
+| 3️⃣ | Count CSV Rows | 🟢 Beginner | Line counting, Header handling |
+| 4️⃣ | Filter Records | 🟡 Intermediate | Conditional processing |
+| 5️⃣ | Search by Name | 🟡 Intermediate | Linear search, String matching |
+| 6️⃣ | Update Values | 🟡 Intermediate | Data modification, File rewriting |
+| 7️⃣ | Sort & Rank | 🟡 Intermediate | Comparators, Collections.sort() |
+| 8️⃣ | Data Validation | 🟡 Intermediate | Regex patterns, Input validation |
+| 9️⃣ | Object Mapping | 🟡 Intermediate | OOP concepts, Data modeling |
+| 🔟 | Merge CSV Files | 🔴 Advanced | Join operations, Map usage |
+| 1️⃣1️⃣ | Large File Processing | 🔴 Advanced | Memory optimization, Chunking |
+| 1️⃣2️⃣ | Duplicate Detection | 🔴 Advanced | HashSet, Uniqueness checks |
+| 1️⃣3️⃣ | Database to CSV | 🔴 Advanced | JDBC, ResultSet processing |
+| 1️⃣4️⃣ | Format Conversion | 🔴 Advanced | JSON ↔ CSV transformation |
+| 1️⃣5️⃣ | Data Encryption | 🔴 Advanced | AES encryption, Security |
 
----
+</div>
 
-### 📅 Day 5 – Arrays & Basic Problem Solving  
-**Date:** 19-Dec-2025
+####📝 Detailed Problem Breakdown
 
-- Learned array concepts:
-  - Single-dimensional arrays
-  - Multi-dimensional arrays
-- Practiced array traversal and operations  
-- Solved problems related to:
-  - Finding missing elements
-  - Basic array-based logic  
+### 1️⃣ Read a CSV File and Print Data
+**Objective:** Read student details (ID, Name, Age, Marks) from CSV and display in structured format.
 
-🔗 **Code Link:**  
-👉 [Array Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+**Concepts:** 
+- BufferedReader for efficient reading
+- String parsing with split()
+- Formatted output with printf()
 
----
-
-### 📅 Day 6 – Java Methods & Reusability  
-**Date:** 20-Dec-2025
-
-- Studied Java methods:
-  - Method declaration
-  - Method calling
-  - Parameter passing
-- Practiced writing reusable logic using methods  
-- Committed and pushed all solutions
-
-🔗 **Code Link:**  
-👉 [Method Programs](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question1)
 
 ---
 
-## 🗓 Week 2: Strings & Extras Problems
+### 2️⃣ Write Data to a CSV File
+**Objective:** Create employee records with ID, Name, Department, and Salary.
+
+**Concepts:**
+- FileWriter and PrintWriter
+- CSV formatting standards
+- Exception handling for I/O operations
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question2)
 
 ---
 
-### 📅 Day 1 – String Concepts & Problems  
-**Date:** 22-Dec-2025
+### 3️⃣ Read and Count Rows
+**Objective:** Count total records excluding headers.
 
-- Learned String concepts and immutability  
-- Explored built-in String methods  
-- Introduction to exception handling  
-- Solved problems at multiple levels:
-  - **Level 1:** Custom methods similar to built-in methods  
-  - **Level 2:** Printing data in tabular format  
-  - **Level 3:** Problems using randomly generated values
+**Concepts:**
+- Line-by-line reading
+- Counter variables
+- Header detection
 
-🔗 **Code Link:**  
-👉 [String Problems](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question3)
 
 ---
 
-### 📅 Day 2 – Extras & Built-in Functions  
-**Date:** 23-Dec-2025
+### 4️⃣ Filter Records from CSV
+**Objective:** Filter students with marks > 80.
 
-- Solved extra String problems:
-  - Frequency calculation
-  - Substring operations
-  - Anagram checks
-- Practiced Java built-in functions  
-- Worked with Java time APIs:
-  - `LocalDate.now()`
-  - `LocalTime.now()`    
+**Concepts:**
+- Conditional filtering
+- Data type conversion
+- Result collection
 
-🔗 **Code Links:**  
-👉 [String Extras](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/String-Handling)  
-👉 [Built-in Functions](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras/Built-In-Function)
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question4)
+
+---
+
+### 5️⃣ Search for a Record
+**Objective:** Search employee by name and display department & salary.
+
+**Concepts:**
+- Linear search algorithm
+- Case-insensitive matching
+- Early termination
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question5)
+
+---
+
+### 6️⃣ Modify CSV File
+**Objective:** Increase IT department salaries by 10%.
+
+**Concepts:**
+- Read-Process-Write pattern
+- Percentage calculations
+- Data transformation
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question6)
+
+---
+
+### 7️⃣ Sort CSV Records
+**Objective:** Sort by salary (descending) and show top 5 earners.
+
+**Concepts:**
+- Comparator interface
+- Collections.sort()
+- Sublist operations
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question7)
+
+---
+
+### 8️⃣ Validate CSV Data
+**Objective:** Validate email format and 10-digit phone numbers using regex.
+
+**Concepts:**
+- Regular expressions
+- Pattern matching
+- Data validation best practices
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question8)
+
+---
+
+### 9️⃣ Convert CSV to Java Objects
+**Objective:** Map CSV rows to Student POJO objects.
+
+**Concepts:**
+- Object-oriented design
+- Constructor usage
+- ArrayList management
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question9)
+
+---
+
+### 🔟 Merge Two CSV Files
+**Objective:** Combine students1.csv (ID, Name, Age) with students2.csv (ID, Marks, Grade).
+
+**Concepts:**
+- Join operations
+- HashMap for lookups
+- Data integration
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question10)
+
+---
+
+### 1️⃣1️⃣ Large File Processing
+**Objective:** Handle 500MB+ files with chunked processing (100 lines/batch).
+
+**Concepts:**
+- Memory management
+- Batch processing
+- Performance optimization
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question11)
+
+---
+
+### 1️⃣2️⃣ Detect Duplicates
+**Objective:** Find duplicate IDs in CSV.
+
+**Concepts:**
+- HashSet for uniqueness
+- Duplicate tracking
+- Set operations
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question12)
+
+---
+
+### 1️⃣3️⃣ Database to CSV Report
+**Objective:** Fetch employee data from database and export to CSV.
+
+**Concepts:**
+- JDBC connectivity
+- ResultSet iteration
+- CSV generation
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question13)
+
+---
+
+### 1️⃣4️⃣ JSON ↔ CSV Conversion
+**Objective:** Bidirectional format conversion.
+
+**Concepts:**
+- Gson/Jackson libraries
+- Format transformation
+- Data serialization
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question14)
+
+---
+
+### 1️⃣5️⃣ Encrypt/Decrypt CSV Data
+**Objective:** Secure sensitive fields (Salary, Email) with encryption.
+
+**Concepts:**
+- AES encryption
+- Cryptography basics
+- Data security
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling/question15)
+
+
+**📦 Complete Module:** [View All CSV Solutions →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/csvdatahandling)
+
+---
+
+#### 📅 Day 2 - JSON Wizardry
+**Date:** January 24, 2026  
+**Focus:** JSON Processing, Parsing, and Transformation
+
+<div align="center">
+
+| # | Problem | Complexity | Libraries Used |
+|---|---------|------------|----------------|
+| 1️⃣ | Create JSON Object | 🟢 Beginner | org.json / Gson |
+| 2️⃣ | Java Object to JSON | 🟢 Beginner | Jackson / Gson |
+| 3️⃣ | Extract Specific Fields | 🟡 Intermediate | JsonNode traversal |
+| 4️⃣ | Merge JSON Objects | 🟡 Intermediate | Object manipulation |
+| 5️⃣ | Validate JSON Structure | 🟡 Intermediate | Jackson Validator |
+| 6️⃣ | List to JSON Array | 🟡 Intermediate | Array serialization |
+| 7️⃣ | Filter by Criteria | 🟡 Intermediate | Predicate filtering |
+| 8️⃣ | Iterate Keys & Values | 🟡 Intermediate | Iterator pattern |
+| 9️⃣ | Advanced Filtering | 🔴 Advanced | Stream API + JSON |
+| 🔟 | Merge Multiple Files | 🔴 Advanced | File I/O + JSON merge |
+| 1️⃣1️⃣ | JSON to XML | 🔴 Advanced | Format conversion |
+| 1️⃣2️⃣ | CSV to JSON | 🔴 Advanced | Cross-format parsing |
+| 1️⃣3️⃣ | Database JSON Reports | 🔴 Advanced | JDBC + JSON export |
+
+</div>
+
+---
+
+####📝 Detailed Problem Breakdown</b></summary>
+
+### 1️⃣ Create JSON Object
+**Objective:** Create a Student JSON with name, age, and subjects array.
+
+**Example Output:**
+```json
+{
+  "name": "John Doe",
+  "age": 20,
+  "subjects": ["Math", "Physics", "Chemistry"]
+}
+```
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question1)
+
+
+
+### 2️⃣ Java Object to JSON
+**Objective:** Convert Car POJO to JSON format.
+
+**Concepts:**
+- Object serialization
+- Gson/Jackson usage
+- JSON formatting
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question2)
+
+
+
+### 3️⃣ Extract Specific Fields
+**Objective:** Read JSON and extract only name and email.
+
+**Concepts:**
+- JsonNode navigation
+- Field selection
+- Partial parsing
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question3)
+
+
+
+### 4️⃣ Merge JSON Objects
+**Objective:** Combine two JSON objects into one.
+
+**Concepts:**
+- Object merging strategies
+- Key conflict resolution
+- Deep vs shallow merge
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question4)
+
+
+
+### 5️⃣ Validate JSON Structure
+**Objective:** Ensure JSON conforms to expected schema using Jackson.
+
+**Concepts:**
+- Schema validation
+- JSON Schema standards
+- Error handling
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question5)
+
+
+
+### 6️⃣ List to JSON Array
+**Objective:** Convert List<Object> to JSON array.
+
+**Concepts:**
+- Collection serialization
+- Array formatting
+- Type handling
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question6)
+
+
+
+### 7️⃣ Filter JSON Data
+**Objective:** Extract records where age > 25.
+
+**Concepts:**
+- Conditional filtering
+- Array traversal
+- Result collection
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question7)
+
+
+
+### 8️⃣ Print All Keys and Values
+**Objective:** Iterate and display all JSON fields.
+
+**Concepts:**
+- Iterator pattern
+- Recursive traversal
+- Nested object handling
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question8)
+
+
+
+### 9️⃣ Validate Email with Schema
+**Objective:** Use JSON Schema to validate email format.
+
+**Concepts:**
+- Schema-based validation
+- Email regex patterns
+- Validation libraries
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question9)
+
+
+### 🔟 Merge Multiple JSON Files
+**Objective:** Combine 2+ JSON files into single object.
+
+**Concepts:**
+- File I/O operations
+- Multi-source merging
+- Conflict resolution
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question10)
+
+
+### 1️⃣1️⃣ JSON to XML Conversion
+**Objective:** Transform JSON to XML format.
+
+**Concepts:**
+- Cross-format conversion
+- XML generation
+- Structure mapping
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question11)
+
+
+
+### 1️⃣2️⃣ CSV to JSON Conversion
+**Objective:** Parse CSV and convert to JSON format.
+
+**Concepts:**
+- Format transformation
+- Data mapping
+- Type preservation
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question12)
+
+
+
+### 1️⃣3️⃣ Database to JSON Report
+**Objective:** Fetch database records and export as JSON.
+
+**Concepts:**
+- JDBC integration
+- ResultSet to JSON
+- Batch processing
+
+**🔗 Code:** [View Solution →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata/question13)
+
+
+**📦 Complete Module:** [View All JSON Solutions →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/ioStreamsPractice/src/com/jsondata)
+
+---
+
+#### 📅 Day 3, 4, 5
+**Status:** ⏸️ Reserved for future topics
+
+---
+
+#### 📅 Day 6 - Real-World Scenarios
+**Date:** January 29, 2026  
+**Focus:** Industry-Standard Applications with Annotations & Reflection
+
+<div align="center">
+
+### 🏥 Enterprise-Grade Projects
+
+</div>
+
+####🏥 Project 1: HealthCheckPro – API Metadata Validator
+
+### Overview
+**Industry:** Healthcare Technology  
+**Organization:** Apollo International Hospital  
+**Challenge:** Automated API documentation and validation system
+
+### 📋 Business Context
+Apollo Hospital's new RESTful API system requires automatic validation of API endpoints. Developers use custom annotations (@PublicAPI, @RequiresAuth, @RateLimit) to mark methods, and HealthCheckPro must:
+
+✅ Scan all controller classes using Reflection  
+✅ Detect missing/incorrect annotations  
+✅ Auto-generate API documentation  
+✅ Validate security configurations
+
+### 🛠️ Technical Implementation
+
+**Technologies:**
+- Custom Annotations (@PublicAPI, @RequiresAuth)
+- Java Reflection API
+- Annotation Processing
+- Markdown Documentation Generator
+
+**Key Features:**
+- Runtime annotation scanning
+- Automatic documentation generation
+- Security policy enforcement
+- Missing annotation detection
+
+**🔗 Code:** [View HealthCheckPro →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based/scenarioBased/src/com/day1/healthcheckpro)
+
+####📊 Project 2: MarkMate – Student Marksheet Generator
+
+### Overview
+**Industry:** Education Technology  
+**Organization:** School Management System  
+**Challenge:** Automated report card generation from CSV data
+
+### 📋 Business Context
+Schools upload subject-wise marks in CSV format. MarkMate processes these files and:
+
+✅ Reads multiple CSV files (per subject)  
+✅ Calculates totals and averages  
+✅ Assigns grades based on performance  
+✅ Exports professional JSON report cards
+
+### 🛠️ Technical Implementation
+
+**Technologies:**
+- CSV Parsing (BufferedReader)
+- JSON Export (Gson/Jackson)
+- Exception Handling
+- Data Validation
+
+**Key Features:**
+- Multi-file CSV processing
+- Grade calculation algorithms
+- JSON report generation
+- Invalid entry handling
+
+**Sample Output:**
+```json
+{
+  "studentId": "S001",
+  "name": "Rahul Sharma",
+  "subjects": {
+    "Math": 95,
+    "Science": 88,
+    "English": 92
+  },
+  "total": 275,
+  "average": 91.67,
+  "grade": "A+"
+}
+```
+
+**🔗 Code:** [View MarkMate →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based/scenarioBased/src/com/day1/markmate)
+
+####🔍 Project 3: EventTracker – Auto Audit System
+
+### Overview
+**Industry:** Enterprise Security  
+**Organization:** Corporate IT Systems  
+**Challenge:** Comprehensive user activity auditing
+
+### 📋 Business Context
+Enterprise systems need automatic logging of all user actions (login, file upload, delete, etc.). EventTracker:
+
+✅ Scans methods marked with @AuditTrail  
+✅ Captures metadata (user, timestamp, action)  
+✅ Generates structured JSON logs  
+✅ Provides real-time audit trails
+
+### 🛠️ Technical Implementation
+
+**Technologies:**
+- Custom Annotations (@AuditTrail)
+- Java Reflection API
+- JSON Logging (Gson)
+- Timestamp Management
+
+**Key Features:**
+- Automatic method discovery
+- Metadata extraction
+- Structured logging
+- Compliance reporting
+
+**Sample Audit Log:**
+```json
+{
+  "eventId": "EVT-2026-001",
+  "action": "FILE_UPLOAD",
+  "user": "admin@company.com",
+  "timestamp": "2026-01-29T14:30:00Z",
+  "metadata": {
+    "fileName": "report.pdf",
+    "fileSize": "2.5MB",
+    "ipAddress": "192.168.1.100"
+  }
+}
+```
+
+**🔗 Code:** [View EventTracker →](https://github.com/Sachin-Sisodiyaa/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based/scenarioBased/src/com/day1/eventtracker)
+
+---
+
+## 🎓 Key Concepts Covered
+
+<div align="center">
+
+### 📚 Core Technologies
+
+</div>
+
+| Category | Technologies & Concepts |
+|----------|------------------------|
+| **File I/O** | BufferedReader, FileWriter, PrintWriter, Scanner |
+| **Data Formats** | CSV parsing, JSON (Gson/Jackson), XML transformation |
+| **Collections** | ArrayList, HashMap, HashSet, TreeMap |
+| **Advanced Java** | Reflection API, Custom Annotations, Regex |
+| **Database** | JDBC, PreparedStatement, ResultSet |
+| **Security** | AES Encryption, Data validation, Input sanitization |
+| **Best Practices** | Exception handling, Resource management, Code documentation |
+
+---
