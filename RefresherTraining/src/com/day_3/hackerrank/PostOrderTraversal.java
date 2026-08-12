@@ -1,20 +1,19 @@
-package com.day_3;
+package com.day_3.hackerrank;
 import java.util.*;
 import java.io.*;
 
-class PostOrderTraversal {
-    PostOrderTraversal left;
-    PostOrderTraversal right;
-    int data;
-    
-    PostOrderTraversal(int data) {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-}
+public class PostOrderTraversal {
+    static class PostOrderNode {
+        PostOrderNode left;
+        PostOrderNode right;
+        int data;
 
-class Solution {
+        PostOrderNode(int data) {
+            this.data = data;
+            left = null;
+            right = null;
+        }
+    }
 
 /* you only have to complete the function given below.  
 Node is defined as  
@@ -27,7 +26,7 @@ class Node {
 
 */
 
-    public static void postOrder(PostOrderTraversal root) {
+    public static void postOrder(PostOrderNode root) {
         if(root == null){
             return;
         }
@@ -36,11 +35,11 @@ class Node {
         System.out.print(root.data + " ");
     }
 
-	public static PostOrderTraversal insert(PostOrderTraversal root, int data) {
+	public static PostOrderNode insert(PostOrderNode root, int data) {
         if(root == null) {
-            return new PostOrderTraversal(data);
+            return new PostOrderNode(data);
         } else {
-            PostOrderTraversal cur;
+            PostOrderNode cur;
             if(data <= root.data) {
                 cur = insert(root.left, data);
                 root.left = cur;
@@ -55,7 +54,7 @@ class Node {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
-        PostOrderTraversal root = null;
+        PostOrderNode root = null;
         while(t-- > 0) {
             int data = scan.nextInt();
             root = insert(root, data);
