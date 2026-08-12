@@ -1,20 +1,19 @@
-package com.day_3;
+package com.day_3.hackerrank;
 import java.util.*;
 import java.io.*;
 
-class PreOrderTraversal {
-    PreOrderTraversal left;
-    PreOrderTraversal right;
-    int data;
-    
-    PreOrderTraversal(int data) {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-}
+public class PreOrderTraversal {
+    static class PreOrderNode {
+        PreOrderNode left;
+        PreOrderNode right;
+        int data;
 
-class Solution {
+        PreOrderNode(int data) {
+            this.data = data;
+            left = null;
+            right = null;
+        }
+    }
 
 /* you only have to complete the function given below.  
 Node is defined as  
@@ -27,7 +26,7 @@ class Node {
 
 */
 
-    public static void preOrder(PreOrderTraversal root) {
+    public static void preOrder(PreOrderNode root) {
         if(root == null){
             return;
         }
@@ -40,11 +39,11 @@ class Node {
 
     }
 
-	public static PreOrderTraversal insert(PreOrderTraversal root, int data) {
+	public static PreOrderNode insert(PreOrderNode root, int data) {
         if(root == null) {
-            return new PreOrderTraversal(data);
+            return new PreOrderNode(data);
         } else {
-            PreOrderTraversal cur;
+            PreOrderNode cur;
             if(data <= root.data) {
                 cur = insert(root.left, data);
                 root.left = cur;
@@ -59,7 +58,7 @@ class Node {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
-        PreOrderTraversal root = null;
+        PreOrderNode root = null;
         while(t-- > 0) {
             int data = scan.nextInt();
             root = insert(root, data);
