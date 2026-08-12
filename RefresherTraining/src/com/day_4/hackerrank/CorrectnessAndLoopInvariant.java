@@ -1,4 +1,4 @@
-package com.day_4;
+package com.day_4.hackerrank;
 import java.io.*;
 import java.util.*;
 
