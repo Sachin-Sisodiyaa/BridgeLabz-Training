@@ -1,4 +1,4 @@
-package com.day_4;
+package com.day_4.hackerrank;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -11,7 +11,8 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+public class BubbleSort {
+    static class BubbleSortResult {
 
     /*
      * Complete the 'countSwaps' function below.
@@ -41,9 +42,8 @@ class Result {
 
     }
 
-}
+    }
 
-public class BubbleSort {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -53,7 +53,7 @@ public class BubbleSort {
             .map(Integer::parseInt)
             .collect(toList());
 
-        Result.countSwaps(a);
+        BubbleSortResult.countSwaps(a);
 
         bufferedReader.close();
     }
