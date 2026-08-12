@@ -1,15 +1,25 @@
-package com.day_3;
+package com.day_3.hackerrank;
 
 public class InsertNodeAtHead {
-	static SinglyLinkedListNode insertNodeAtHead(SinglyLinkedListNode llist, int data) {
-        SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
+    static class InsertHeadNode {
+        int data;
+        InsertHeadNode next;
+
+        InsertHeadNode(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+	static InsertHeadNode insertNodeAtHead(InsertHeadNode llist, int data) {
+        InsertHeadNode newNode = new InsertHeadNode(data);
         newNode.next = llist;
         llist = newNode;
         return newNode;
     }
 
-    static void printLinkedList(SinglyLinkedListNode head) {
-        SinglyLinkedListNode temp = head;
+    static void printLinkedList(InsertHeadNode head) {
+        InsertHeadNode temp = head;
         while (temp != null) {
             System.out.print(temp.data + " ");
             temp = temp.next;
@@ -18,7 +28,7 @@ public class InsertNodeAtHead {
 
     public static void main(String[] args) {
 
-        SinglyLinkedListNode head = null;
+        InsertHeadNode head = null;
 
         // Insert nodes at the head
         head = insertNodeAtHead(head, 10);
@@ -28,15 +38,5 @@ public class InsertNodeAtHead {
 
         // Print the linked list
         printLinkedList(head);
-    }
-}
-
-class SinglyLinkedListNode {
-    int data;
-    SinglyLinkedListNode next;
-
-    SinglyLinkedListNode(int data) {
-        this.data = data;
-        this.next = null;
     }
 }
