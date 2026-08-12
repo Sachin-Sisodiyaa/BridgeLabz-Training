@@ -1,4 +1,4 @@
-package com.day_3;
+package com.day_3.classwork;
 
 public class SinglyLinkedList {
 	class Node{
