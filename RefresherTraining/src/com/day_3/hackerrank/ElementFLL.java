@@ -1,4 +1,4 @@
-package com.day_3;
+package com.day_3.hackerrank;
 
 public class ElementFLL {
 	//Method to print LindedList
