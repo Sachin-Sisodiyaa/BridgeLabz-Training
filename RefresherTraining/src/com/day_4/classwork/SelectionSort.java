@@ -1,4 +1,4 @@
-package com.day_4;
+package com.day_4.classwork;
 
 public class SelectionSort {
 	
