@@ -1,4 +1,4 @@
-package com.day_5;
+package com.day_5.hackerrank;
 import java.util.*;
 
 public class QuickSort1 {
