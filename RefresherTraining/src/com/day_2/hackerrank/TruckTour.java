@@ -1,4 +1,4 @@
-package com.day_2;
+package com.day_2.hackerrank;
 import java.util.*;
 
 public class TruckTour {
