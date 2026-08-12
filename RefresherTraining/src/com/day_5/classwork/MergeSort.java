@@ -1,4 +1,4 @@
-package com.day_5;
+package com.day_5.classwork;
 
 public class MergeSort {
 	
