@@ -1,4 +1,4 @@
-package com.day_2;
+package com.day_2.classwork;
 import java.util.Stack;
 
 public class StackMethods {
