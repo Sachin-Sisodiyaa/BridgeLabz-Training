@@ -1,4 +1,4 @@
-package com.day_4;
+package com.day_4.hackerrank;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -11,7 +11,8 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+public class RunningTimeOfAlgorithms {
+    static class RunningTimeResult {
 
     /*
      * Complete the 'runningTime' function below.
@@ -39,9 +40,8 @@ class Result {
     return count;
     }
 
-}
+    }
 
-public class RunningTimeOfAlgorithms {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -52,7 +52,7 @@ public class RunningTimeOfAlgorithms {
             .map(Integer::parseInt)
             .collect(toList());
 
-        int result = Result.runningTime(arr);
+        int result = RunningTimeResult.runningTime(arr);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
