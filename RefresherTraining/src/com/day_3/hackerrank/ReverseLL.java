@@ -1,13 +1,24 @@
-package com.day_3;
+package com.day_3.hackerrank;
+import java.util.*;
 
 public class ReverseLL {
-	public static SinglyLinkedListNode reverse(SinglyLinkedListNode llist) {
+    static class ReverseLLNode {
+        int data;
+        ReverseLLNode next;
 
-        SinglyLinkedListNode prev = null;
-        SinglyLinkedListNode current = llist;
+        ReverseLLNode(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+	public static ReverseLLNode reverse(ReverseLLNode llist) {
+
+        ReverseLLNode prev = null;
+        ReverseLLNode current = llist;
 
         while (current != null) {
-            SinglyLinkedListNode next = current.next;
+            ReverseLLNode next = current.next;
             current.next = prev;
             prev = current;
             current = next;
@@ -17,8 +28,8 @@ public class ReverseLL {
     }
 
     // Print the linked list
-    public static void printLinkedList(SinglyLinkedListNode head) {
-        SinglyLinkedListNode temp = head;
+    public static void printLinkedList(ReverseLLNode head) {
+        ReverseLLNode temp = head;
 
         while (temp != null) {
             System.out.print(temp.data + " ");
@@ -30,11 +41,11 @@ public class ReverseLL {
     public static void main(String[] args) {
 
         // Create linked list: 10 -> 20 -> 30 -> 40 -> 50
-        SinglyLinkedListNode head = new SinglyLinkedListNode(10);
-        head.next = new SinglyLinkedListNode(20);
-        head.next.next = new SinglyLinkedListNode(30);
-        head.next.next.next = new SinglyLinkedListNode(40);
-        head.next.next.next.next = new SinglyLinkedListNode(50);
+        ReverseLLNode head = new ReverseLLNode(10);
+        head.next = new ReverseLLNode(20);
+        head.next.next = new ReverseLLNode(30);
+        head.next.next.next = new ReverseLLNode(40);
+        head.next.next.next.next = new ReverseLLNode(50);
 
         System.out.print("Original List: ");
         printLinkedList(head);
@@ -44,16 +55,5 @@ public class ReverseLL {
 
         System.out.print("Reversed List: ");
         printLinkedList(head);
-    }
-}
-
-// Node class
-class SinglyLinkedListNode {
-    int data;
-    SinglyLinkedListNode next;
-
-    SinglyLinkedListNode(int data) {
-        this.data = data;
-        this.next = null;
     }
 }
