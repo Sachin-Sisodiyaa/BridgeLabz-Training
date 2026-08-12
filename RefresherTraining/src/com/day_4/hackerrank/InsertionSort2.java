@@ -1,4 +1,4 @@
-package com.day_4;
+package com.day_4.hackerrank;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -11,7 +11,8 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+public class InsertionSort2 {
+    static class InsertionSort2Result {
 
     /*
      * Complete the 'insertionSort2' function below.
@@ -44,10 +45,8 @@ class Result {
     
     }
 
-}
+    }
 
-
-public class InsertionSort2 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -57,7 +56,7 @@ public class InsertionSort2 {
             .map(Integer::parseInt)
             .collect(toList());
 
-        Result.insertionSort2(n, arr);
+        InsertionSort2Result.insertionSort2(n, arr);
 
         bufferedReader.close();
     }
