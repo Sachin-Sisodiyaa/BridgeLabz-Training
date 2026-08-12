@@ -1,14 +1,24 @@
-package com.day_3;
+package com.day_3.hackerrank;
 
 public class InsertAtTail {
-	static SinglyLinkedListNode insertNodeAtTail(SinglyLinkedListNode head, int data) {
-        SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
+    static class InsertTailNode {
+        int data;
+        InsertTailNode next;
+
+        InsertTailNode(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+	static InsertTailNode insertNodeAtTail(InsertTailNode head, int data) {
+        InsertTailNode newNode = new InsertTailNode(data);
 
         if (head == null) {
             return newNode;
         }
 
-        SinglyLinkedListNode temp = head;
+        InsertTailNode temp = head;
 
         while (temp.next != null) {
             temp = temp.next;
@@ -18,8 +28,8 @@ public class InsertAtTail {
         return head;
     }
 
-    static void printLinkedList(SinglyLinkedListNode head) {
-        SinglyLinkedListNode temp = head;
+    static void printLinkedList(InsertTailNode head) {
+        InsertTailNode temp = head;
 
         while (temp != null) {
             System.out.print(temp.data + " ");
@@ -29,7 +39,7 @@ public class InsertAtTail {
 
     public static void main(String[] args) {
 
-        SinglyLinkedListNode head = null;
+        InsertTailNode head = null;
 
         // Insert nodes at the tail
         head = insertNodeAtTail(head, 10);
@@ -42,15 +52,5 @@ public class InsertAtTail {
         // Print the linked list
         System.out.println("Linked List:");
         printLinkedList(head);
-    }
-}
-
-class SinglyLinkedListNode {
-    int data;
-    SinglyLinkedListNode next;
-
-    SinglyLinkedListNode(int data) {
-        this.data = data;
-        this.next = null;
     }
 }
