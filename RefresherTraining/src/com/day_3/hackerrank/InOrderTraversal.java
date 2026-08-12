@@ -1,20 +1,19 @@
-package com.day_3;
+package com.day_3.hackerrank;
 import java.util.*;
 import java.io.*;
 
-class InOrderTraversal {
-    InOrderTraversal left;
-    InOrderTraversal right;
-    int data;
-    
-    InOrderTraversal(int data) {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-}
+public class InOrderTraversal {
+    static class InOrderNode {
+        InOrderNode left;
+        InOrderNode right;
+        int data;
 
-class Solution {
+        InOrderNode(int data) {
+            this.data = data;
+            left = null;
+            right = null;
+        }
+    }
 
 /* you only have to complete the function given below.  
 Node is defined as  
@@ -27,7 +26,7 @@ class Node {
 
 */
 
-    public static void inOrder(InOrderTraversal root) {
+    public static void inOrder(InOrderNode root) {
         if(root == null){
             return;
         }
@@ -36,11 +35,11 @@ class Node {
         inOrder(root.right);
     }
 
-	public static InOrderTraversal insert(InOrderTraversal root, int data) {
+	public static InOrderNode insert(InOrderNode root, int data) {
         if(root == null) {
-            return new InOrderTraversal(data);
+            return new InOrderNode(data);
         } else {
-            InOrderTraversal cur;
+            InOrderNode cur;
             if(data <= root.data) {
                 cur = insert(root.left, data);
                 root.left = cur;
@@ -55,7 +54,7 @@ class Node {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
-        InOrderTraversal root = null;
+        InOrderNode root = null;
         while(t-- > 0) {
             int data = scan.nextInt();
             root = insert(root, data);
